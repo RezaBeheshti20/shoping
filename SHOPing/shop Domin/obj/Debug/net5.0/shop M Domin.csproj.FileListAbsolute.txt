@@ -1,0 +1,15 @@
+C:\Git2\SHOPing\shop Domin\bin\Debug\net5.0\shop M Domin.deps.json
+C:\Git2\SHOPing\shop Domin\bin\Debug\net5.0\shop M Domin.dll
+C:\Git2\SHOPing\shop Domin\bin\Debug\net5.0\shop M Domin.pdb
+C:\Git2\SHOPing\shop Domin\bin\Debug\net5.0\0_Frimwork.dll
+C:\Git2\SHOPing\shop Domin\bin\Debug\net5.0\0_Frimwork.pdb
+C:\Git2\SHOPing\shop Domin\obj\Debug\net5.0\shop M Domin.csproj.AssemblyReference.cache
+C:\Git2\SHOPing\shop Domin\obj\Debug\net5.0\shop M Domin.GeneratedMSBuildEditorConfig.editorconfig
+C:\Git2\SHOPing\shop Domin\obj\Debug\net5.0\shop M Domin.AssemblyInfoInputs.cache
+C:\Git2\SHOPing\shop Domin\obj\Debug\net5.0\shop M Domin.AssemblyInfo.cs
+C:\Git2\SHOPing\shop Domin\obj\Debug\net5.0\shop M Domin.csproj.CoreCompileInputs.cache
+C:\Git2\SHOPing\shop Domin\obj\Debug\net5.0\shop M Domin.csproj.CopyComplete
+C:\Git2\SHOPing\shop Domin\obj\Debug\net5.0\shop M Domin.dll
+C:\Git2\SHOPing\shop Domin\obj\Debug\net5.0\refint\shop M Domin.dll
+C:\Git2\SHOPing\shop Domin\obj\Debug\net5.0\shop M Domin.pdb
+C:\Git2\SHOPing\shop Domin\obj\Debug\net5.0\ref\shop M Domin.dll

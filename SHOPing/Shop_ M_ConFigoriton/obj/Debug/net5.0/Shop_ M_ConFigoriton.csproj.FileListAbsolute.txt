@@ -1,0 +1,26 @@
+C:\Git2\SHOPing\Shop_ M_ConFigoriton\bin\Debug\net5.0\Shop_ M_ConFigoriton.deps.json
+C:\Git2\SHOPing\Shop_ M_ConFigoriton\bin\Debug\net5.0\Shop_ M_ConFigoriton.runtimeconfig.json
+C:\Git2\SHOPing\Shop_ M_ConFigoriton\bin\Debug\net5.0\Shop_ M_ConFigoriton.runtimeconfig.dev.json
+C:\Git2\SHOPing\Shop_ M_ConFigoriton\bin\Debug\net5.0\Shop_ M_ConFigoriton.dll
+C:\Git2\SHOPing\Shop_ M_ConFigoriton\bin\Debug\net5.0\Shop_ M_ConFigoriton.pdb
+C:\Git2\SHOPing\Shop_ M_ConFigoriton\bin\Debug\net5.0\0_Frimwork.dll
+C:\Git2\SHOPing\Shop_ M_ConFigoriton\bin\Debug\net5.0\SHop  m Domin.dll
+C:\Git2\SHOPing\Shop_ M_ConFigoriton\bin\Debug\net5.0\Shop M  Applicaion _Cotexet.dll
+C:\Git2\SHOPing\Shop_ M_ConFigoriton\bin\Debug\net5.0\Shop M_Application.dll
+C:\Git2\SHOPing\Shop_ M_ConFigoriton\bin\Debug\net5.0\Shop _M_infrasutacherEFCore.dll
+C:\Git2\SHOPing\Shop_ M_ConFigoriton\bin\Debug\net5.0\Shop M  Applicaion _Cotexet.pdb
+C:\Git2\SHOPing\Shop_ M_ConFigoriton\bin\Debug\net5.0\Shop M_Application.pdb
+C:\Git2\SHOPing\Shop_ M_ConFigoriton\bin\Debug\net5.0\Shop _M_infrasutacherEFCore.pdb
+C:\Git2\SHOPing\Shop_ M_ConFigoriton\bin\Debug\net5.0\0_Frimwork.pdb
+C:\Git2\SHOPing\Shop_ M_ConFigoriton\bin\Debug\net5.0\SHop  m Domin.pdb
+C:\Git2\SHOPing\Shop_ M_ConFigoriton\obj\Debug\net5.0\Shop_ M_ConFigoriton.csproj.AssemblyReference.cache
+C:\Git2\SHOPing\Shop_ M_ConFigoriton\obj\Debug\net5.0\Shop_ M_ConFigoriton.GeneratedMSBuildEditorConfig.editorconfig
+C:\Git2\SHOPing\Shop_ M_ConFigoriton\obj\Debug\net5.0\Shop_ M_ConFigoriton.AssemblyInfoInputs.cache
+C:\Git2\SHOPing\Shop_ M_ConFigoriton\obj\Debug\net5.0\Shop_ M_ConFigoriton.AssemblyInfo.cs
+C:\Git2\SHOPing\Shop_ M_ConFigoriton\obj\Debug\net5.0\Shop_ M_ConFigoriton.csproj.CoreCompileInputs.cache
+C:\Git2\SHOPing\Shop_ M_ConFigoriton\obj\Debug\net5.0\Shop_ M_ConFigoriton.csproj.CopyComplete
+C:\Git2\SHOPing\Shop_ M_ConFigoriton\obj\Debug\net5.0\Shop_ M_ConFigoriton.dll
+C:\Git2\SHOPing\Shop_ M_ConFigoriton\obj\Debug\net5.0\refint\Shop_ M_ConFigoriton.dll
+C:\Git2\SHOPing\Shop_ M_ConFigoriton\obj\Debug\net5.0\Shop_ M_ConFigoriton.pdb
+C:\Git2\SHOPing\Shop_ M_ConFigoriton\obj\Debug\net5.0\Shop_ M_ConFigoriton.genruntimeconfig.cache
+C:\Git2\SHOPing\Shop_ M_ConFigoriton\obj\Debug\net5.0\ref\Shop_ M_ConFigoriton.dll
