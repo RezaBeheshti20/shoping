@@ -1,4 +1,5 @@
 ﻿using _0_Frimwork.Domin;
+using SHop__m_Domin.ProductAgg;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,7 +19,13 @@ namespace SHop__m_Domin.ProductCategoryAgg
         public string PicturTitle { get;private set; }
         public string Keywords { get;private set; }
         public string MetaDescription { get;private set; }
+        public List<Product> products { get; private set; }
         public string Slug { get;private set; }
+
+        public ProductCategory()
+        {
+            products = new List<Product>();
+        }
         public ProductCategory(string name, string dscription , string picture,string pictureAlt
             ,string picturTitle,string keywords,string metaDescription ,string slug)
         {

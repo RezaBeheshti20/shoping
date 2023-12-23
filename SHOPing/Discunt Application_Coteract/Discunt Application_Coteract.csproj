@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>Discunt_Application_Coteract</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\0_Frimwork\0_Frimwork.csproj" />
+    <ProjectReference Include="..\Shop M  Applicaion _Cotexet\Shop M  Applicaion _Cotexet.csproj" />
+  </ItemGroup>
+
+</Project>

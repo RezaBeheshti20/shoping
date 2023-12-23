@@ -1,11 +1,12 @@
-﻿using _0_Frimwork.Infrasutacher;
+﻿using _0_Frimwork.Application;
+using _0_Frimwork.Infrasutacher;
 using SHop__m_Domin.ProductCategoryAgg;
 using Shop_M__Applicaion__Cotexet.ProductCategory;
 using System.Collections.Generic;
 using System.Linq;
  
 
-namespace Shop__M_infrasutacher.Repository
+namespace Shop__M_infrasutacher.RepositoryBase
 {
     public class ProductCategoryRepository : RepositoryBase<long, ProductCategory>, IProuctCategoryReposetory
     {
@@ -32,7 +33,16 @@ namespace Shop__M_infrasutacher.Repository
 
           }).FirstOrDefault(x=>x.Id==id); 
         }
- 
+
+        public List<ProductCategoryViewModel> GetProductCategorys()
+        {
+            return _Context.ProductCategories.Select(x => new ProductCategoryViewModel() { 
+               Id = x.Id,
+
+               Name=x.Name,
+
+            }).ToList();
+        }
 
         public List<ProductCategoryViewModel> SearCh(ProductCategorySareChModel SearChModel)
         {
@@ -40,7 +50,7 @@ namespace Shop__M_infrasutacher.Repository
             {
                 Id = x.Id,
                 Name = x.Name,
-                CreationDate = x.CreationData.ToString(),
+                CreationDate = x.CreationData.ToFarsi(),
             });
             if(string.IsNullOrWhiteSpace(SearChModel .Name))
             reza=reza.Where(x=>x.Name.Contains(SearChModel.Name));

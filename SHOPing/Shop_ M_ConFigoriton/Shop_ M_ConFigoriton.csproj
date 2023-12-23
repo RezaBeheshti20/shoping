@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
@@ -16,6 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\01-LampQuery\01-LampQuery.csproj" />
     <ProjectReference Include="..\Shop M  Applicaion _Cotexet\Shop M  Applicaion _Cotexet.csproj" />
     <ProjectReference Include="..\Shop M_Application\Shop M_Application.csproj" />
     <ProjectReference Include="..\Shop _M_infrasutacher\Shop _M_infrasutacherEFCore.csproj" />

@@ -13,7 +13,35 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\DisCunt.Configration\DisCunt.Configration.csproj" />
     <ProjectReference Include="..\Shop_ M_ConFigoriton\Shop_ M_ConFigoriton.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="Areas\AddMin\Page\Shop\Slids\Creat.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Areas\AddMin\Page\Shop\Slids\Edit.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Areas\AddMin\Page\Shop\Slids\Index.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Areas\AddMin\Page\Shop\ProductCategorys\Creat.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Areas\AddMin\Page\Shop\ProductCategorys\Edit.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Areas\AddMin\Page\Shop\ProductCategorys\Index.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
   </ItemGroup>
 
 </Project>

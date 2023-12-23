@@ -1764,6 +1764,19 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
+      "01-LampQuery/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Shop _M_infrasutacherEFCore": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/01-LampQuery.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/01-LampQuery.dll": {}
+        }
+      },
       "0_Frimwork/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -6100,6 +6113,11 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
+    "01-LampQuery/1.0.0": {
+      "type": "project",
+      "path": "../01-LampQuery/01-LampQuery.csproj",
+      "msbuildProject": "../01-LampQuery/01-LampQuery.csproj"
+    },
     "0_Frimwork/1.0.0": {
       "type": "project",
       "path": "../0_Frimwork/0_Frimwork.csproj",
@@ -6128,6 +6146,7 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "01-LampQuery >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 5.0.1",
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.1",
       "Microsoft.EntityFrameworkCore.Tools >= 5.0.1",
@@ -6164,6 +6183,9 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
+            "C:\\Git2\\SHOPing\\01-LampQuery\\01-LampQuery.csproj": {
+              "projectPath": "C:\\Git2\\SHOPing\\01-LampQuery\\01-LampQuery.csproj"
+            },
             "C:\\Git2\\SHOPing\\Shop M  Applicaion _Cotexet\\Shop M  Applicaion _Cotexet.csproj": {
               "projectPath": "C:\\Git2\\SHOPing\\Shop M  Applicaion _Cotexet\\Shop M  Applicaion _Cotexet.csproj"
             },

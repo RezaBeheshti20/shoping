@@ -10,11 +10,11 @@ using System.Threading.Tasks;
 
 namespace Shop_M_Application
 {
-    public class ProductCategoryApplication : IProductCategoryApplicaton
+    public class IProductCategoryApplication : IProductCategoryApplicaton
     {
         private readonly IProuctCategoryReposetory _prouctCategoryReposetory;
 
-        public ProductCategoryApplication(IProuctCategoryReposetory prouctCategoryReposetory)
+        public IProductCategoryApplication(IProuctCategoryReposetory prouctCategoryReposetory)
         {
             _prouctCategoryReposetory = prouctCategoryReposetory;
         }
@@ -23,7 +23,7 @@ namespace Shop_M_Application
         {
            var opration=new OpratinResult();
             if (_prouctCategoryReposetory.Exists(x=>x.Name==command.Name))
-                return opration.Failed("تکراری لطفا مجدد تلاش کنید");
+                return opration.Failed(ApplicationMessage.RecordNotFound);
 
             var productCategory=new ProductCategory(command.Name,command.Picture,command.MetaDescription,command.Description
                 ,command.PictureTitle,command.PictureAlt,command.Slug,command.Keywords);
@@ -41,7 +41,7 @@ namespace Shop_M_Application
             var productCategory=_prouctCategoryReposetory.Get(command.Id);
 
             if (productCategory != null)
-                return opration.Failed("تکراری لطفا مجدد تلاش کنید");
+                return opration.Failed(ApplicationMessage.RecordNotFound);
             if (_prouctCategoryReposetory.Exists(x => x.Name == command.Name && x.Id != command.Id)) 
             return opration.Failed("تکراری لطفا مجدد تلاش کنید");
 
@@ -57,6 +57,11 @@ namespace Shop_M_Application
         public EditProductCatgory GetDetails(long id)
         {
             return _prouctCategoryReposetory.GetDetails(id);
+        }
+
+        public List<ProductCategoryViewModel> GetProductCategories()
+        {
+            return _prouctCategoryReposetory.GetProductCategorys();
         }
 
         public List<ProductCategoryViewModel> SearCh(ProductCategorySareChModel SearChmodel)

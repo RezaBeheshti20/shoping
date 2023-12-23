@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Discontinfarstuacher\Discontinfarstuacher.csproj" />
+    <ProjectReference Include="..\Discunt Application_Coteract\Discunt Application_Coteract.csproj" />
+    <ProjectReference Include="..\DisCuntApplicaton\DisCuntApplicaton.csproj" />
+  </ItemGroup>
+
+</Project>

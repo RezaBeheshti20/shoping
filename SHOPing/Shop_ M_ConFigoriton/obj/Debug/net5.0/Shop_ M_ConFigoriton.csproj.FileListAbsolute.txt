@@ -3,11 +3,13 @@ C:\Git2\SHOPing\Shop_ M_ConFigoriton\bin\Debug\net5.0\Shop_ M_ConFigoriton.runti
 C:\Git2\SHOPing\Shop_ M_ConFigoriton\bin\Debug\net5.0\Shop_ M_ConFigoriton.runtimeconfig.dev.json
 C:\Git2\SHOPing\Shop_ M_ConFigoriton\bin\Debug\net5.0\Shop_ M_ConFigoriton.dll
 C:\Git2\SHOPing\Shop_ M_ConFigoriton\bin\Debug\net5.0\Shop_ M_ConFigoriton.pdb
+C:\Git2\SHOPing\Shop_ M_ConFigoriton\bin\Debug\net5.0\01-LampQuery.dll
 C:\Git2\SHOPing\Shop_ M_ConFigoriton\bin\Debug\net5.0\0_Frimwork.dll
 C:\Git2\SHOPing\Shop_ M_ConFigoriton\bin\Debug\net5.0\SHop  m Domin.dll
 C:\Git2\SHOPing\Shop_ M_ConFigoriton\bin\Debug\net5.0\Shop M  Applicaion _Cotexet.dll
 C:\Git2\SHOPing\Shop_ M_ConFigoriton\bin\Debug\net5.0\Shop M_Application.dll
 C:\Git2\SHOPing\Shop_ M_ConFigoriton\bin\Debug\net5.0\Shop _M_infrasutacherEFCore.dll
+C:\Git2\SHOPing\Shop_ M_ConFigoriton\bin\Debug\net5.0\01-LampQuery.pdb
 C:\Git2\SHOPing\Shop_ M_ConFigoriton\bin\Debug\net5.0\Shop M  Applicaion _Cotexet.pdb
 C:\Git2\SHOPing\Shop_ M_ConFigoriton\bin\Debug\net5.0\Shop M_Application.pdb
 C:\Git2\SHOPing\Shop_ M_ConFigoriton\bin\Debug\net5.0\Shop _M_infrasutacherEFCore.pdb

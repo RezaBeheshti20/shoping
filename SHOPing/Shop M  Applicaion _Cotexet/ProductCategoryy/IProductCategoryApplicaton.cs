@@ -10,6 +10,7 @@ namespace Shop_M__Applicaion__Cotexet.ProductCategoryy
          OpratinResult Create(CreatProductCategory command);
         OpratinResult Edit(EditProductCatgory command);
         EditProductCatgory GetDetails(long id);
+        List<ProductCategoryViewModel> GetProductCategories();
          List<ProductCategoryViewModel>SearCh(ProductCategorySareChModel SearChmodel);
     }
 }
