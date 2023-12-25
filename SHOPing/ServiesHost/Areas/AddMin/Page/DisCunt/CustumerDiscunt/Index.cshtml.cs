@@ -1,3 +1,5 @@
+using DicuntM_Domin.Colleague;
+using DicuntM_Domin.CustomerAgg;
 using Discunt_Application_Coteract.Customer;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
@@ -8,7 +10,7 @@ using Shop_M__Applicaion__Cotexet.ProductCategoryy;
 using Shop_M_Application;
 using System.Collections.Generic;
 
-namespace ServiesHost.Areas.AddMin.Page.Shop.CustumerDiscunt
+namespace ServiceHost.Areas.Administration.Pages.DisCunt.CustumerDiscunt
 {
     public class IndexModel : PageModel
     {
@@ -38,7 +40,7 @@ namespace ServiesHost.Areas.AddMin.Page.Shop.CustumerDiscunt
         {
             var command = new DefinCostomer
             {
-
+                Products = _productApplication.GetProducts()
             };
 
             return Partial("./Creat", command);
@@ -51,8 +53,9 @@ namespace ServiesHost.Areas.AddMin.Page.Shop.CustumerDiscunt
         public IActionResult OnGetEdit(long Id)
         {
           var CustomerDiscunt=_customerApplication.GetDetails(Id);
-          
-          return new JsonResult(CustomerDiscunt);
+            Customer.Products = _productApplication.GetProducts();
+
+            return new JsonResult(CustomerDiscunt);
 
         }
         public JsonResult OnPostEdit( EditCustomer  command)

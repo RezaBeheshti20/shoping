@@ -1,4 +1,5 @@
 ﻿using _0_Frimwork.Domin;
+using Shop_M__Applicaion__Cotexet.Product;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,6 +10,8 @@ namespace DicuntM_Domin.CustomerAgg
 {
     public class Customer:EntityBase
     {
+        public static List<ProductViewModel> Products;
+
         public long ProductId { get;private set; }
         public int DiscountRate { get;private set; }
         public DateTime StartDate { get;private set; }

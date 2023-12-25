@@ -19,6 +19,36 @@ namespace Discontinfarstuacher.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("ProductVersion", "5.0.1");
 
+            modelBuilder.Entity("DicuntM_Domin.Colleague.Colleague", b =>
+                {
+                    b.Property<long>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bigint")
+                        .UseIdentityColumn();
+
+                    b.Property<DateTime>("CreationData")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("CreationDate")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("DisCountRate")
+                        .HasColumnType("int");
+
+                    b.Property<int>("DisCuontRate")
+                        .HasColumnType("int");
+
+                    b.Property<bool>("IsRemove")
+                        .HasColumnType("bit");
+
+                    b.Property<long>("ProductId")
+                        .HasColumnType("bigint");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Colleague");
+                });
+
             modelBuilder.Entity("DicuntM_Domin.CustomerAgg.Customer", b =>
                 {
                     b.Property<long>("Id")

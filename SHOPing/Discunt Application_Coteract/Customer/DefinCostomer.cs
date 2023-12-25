@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Shop_M__Applicaion__Cotexet.Product;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -14,8 +15,8 @@ namespace Discunt_Application_Coteract.Customer
         public string StartDate { get; set; }
         public string EndDate { get; set; }
         public string Reason { get; set; }
-        public List<CustomerViewModel> Products { get; set; }
+        public List<ProductViewModel> Products { get; set; }
 
-        
+
     }
 }
