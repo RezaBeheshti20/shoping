@@ -1,0 +1,17 @@
+C:\Git2\SHOPing\invantoriy.Domin\bin\Debug\net5.0\Domin_invantorii.deps.json
+C:\Git2\SHOPing\invantoriy.Domin\bin\Debug\net5.0\Domin_invantorii.dll
+C:\Git2\SHOPing\invantoriy.Domin\bin\Debug\net5.0\Domin_invantorii.pdb
+C:\Git2\SHOPing\invantoriy.Domin\bin\Debug\net5.0\0_Frimwork.dll
+C:\Git2\SHOPing\invantoriy.Domin\bin\Debug\net5.0\Invantoriy.Application.Conterxt.dll
+C:\Git2\SHOPing\invantoriy.Domin\bin\Debug\net5.0\0_Frimwork.pdb
+C:\Git2\SHOPing\invantoriy.Domin\bin\Debug\net5.0\Invantoriy.Application.Conterxt.pdb
+C:\Git2\SHOPing\invantoriy.Domin\obj\Debug\net5.0\Domin_invantorii.csproj.AssemblyReference.cache
+C:\Git2\SHOPing\invantoriy.Domin\obj\Debug\net5.0\Domin_invantorii.GeneratedMSBuildEditorConfig.editorconfig
+C:\Git2\SHOPing\invantoriy.Domin\obj\Debug\net5.0\Domin_invantorii.AssemblyInfoInputs.cache
+C:\Git2\SHOPing\invantoriy.Domin\obj\Debug\net5.0\Domin_invantorii.AssemblyInfo.cs
+C:\Git2\SHOPing\invantoriy.Domin\obj\Debug\net5.0\Domin_invantorii.csproj.CoreCompileInputs.cache
+C:\Git2\SHOPing\invantoriy.Domin\obj\Debug\net5.0\Domin_invantorii.csproj.CopyComplete
+C:\Git2\SHOPing\invantoriy.Domin\obj\Debug\net5.0\Domin_invantorii.dll
+C:\Git2\SHOPing\invantoriy.Domin\obj\Debug\net5.0\refint\Domin_invantorii.dll
+C:\Git2\SHOPing\invantoriy.Domin\obj\Debug\net5.0\Domin_invantorii.pdb
+C:\Git2\SHOPing\invantoriy.Domin\obj\Debug\net5.0\ref\Domin_invantorii.dll

@@ -49,11 +49,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Invantory_M", "Invantory_M"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "M_Domin", "M_Domin", "{EEB0FAD0-C8D2-46D8-8A6A-4C954DA702A7}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "invantoriy.Domin", "invantoriy.Domin\invantoriy.Domin.csproj", "{CAF37011-CE9A-449F-AC2C-7EF125858F88}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domin_invantorii", "invantoriy.Domin\Domin_invantorii.csproj", "{CAF37011-CE9A-449F-AC2C-7EF125858F88}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "M_Application", "M_Application", "{CF6C9604-273E-4748-BCBB-725D0C96432B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Invantoriy.Application.Conterxt", "Invantoriy.Application.Conterxt\Invantoriy.Application.Conterxt.csproj", "{8B58A8CF-D181-4426-AB23-0B1E15D00F60}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Invantoriy.Application.Conterxt", "Invantoriy.Application.Conterxt\Invantoriy.Application.Conterxt.csproj", "{8B58A8CF-D181-4426-AB23-0B1E15D00F60}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "M_Infarstuchir", "M_Infarstuchir", "{1D11A94A-A4D9-40C3-84DA-1C82928D4B39}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "M_invantori.Infarastucher.EFcor", "M_invantori.Infarastucher.EFcor\M_invantori.Infarastucher.EFcor.csproj", "{8F9EB9EA-3114-465C-A564-67165C5E5146}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "invantoryi.i.infarastucher.Confegoration", "invantoryi.i.infarastucher.Confegoration\invantoryi.i.infarastucher.Confegoration.csproj", "{5EBF8194-6E05-449B-B394-C803F41071C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Invantoriy.Application", "Invantoriy.Application\Invantoriy.Application.csproj", "{66A65DC9-3614-4A2B-8A58-A022C8187872}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -121,6 +129,18 @@ Global
 		{8B58A8CF-D181-4426-AB23-0B1E15D00F60}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8B58A8CF-D181-4426-AB23-0B1E15D00F60}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8B58A8CF-D181-4426-AB23-0B1E15D00F60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F9EB9EA-3114-465C-A564-67165C5E5146}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F9EB9EA-3114-465C-A564-67165C5E5146}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F9EB9EA-3114-465C-A564-67165C5E5146}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F9EB9EA-3114-465C-A564-67165C5E5146}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EBF8194-6E05-449B-B394-C803F41071C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EBF8194-6E05-449B-B394-C803F41071C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EBF8194-6E05-449B-B394-C803F41071C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EBF8194-6E05-449B-B394-C803F41071C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66A65DC9-3614-4A2B-8A58-A022C8187872}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66A65DC9-3614-4A2B-8A58-A022C8187872}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66A65DC9-3614-4A2B-8A58-A022C8187872}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66A65DC9-3614-4A2B-8A58-A022C8187872}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -146,6 +166,10 @@ Global
 		{CAF37011-CE9A-449F-AC2C-7EF125858F88} = {EEB0FAD0-C8D2-46D8-8A6A-4C954DA702A7}
 		{CF6C9604-273E-4748-BCBB-725D0C96432B} = {7AAE23C1-80FC-477C-AD17-BD92D12EC0AD}
 		{8B58A8CF-D181-4426-AB23-0B1E15D00F60} = {CF6C9604-273E-4748-BCBB-725D0C96432B}
+		{1D11A94A-A4D9-40C3-84DA-1C82928D4B39} = {7AAE23C1-80FC-477C-AD17-BD92D12EC0AD}
+		{8F9EB9EA-3114-465C-A564-67165C5E5146} = {1D11A94A-A4D9-40C3-84DA-1C82928D4B39}
+		{5EBF8194-6E05-449B-B394-C803F41071C0} = {1D11A94A-A4D9-40C3-84DA-1C82928D4B39}
+		{66A65DC9-3614-4A2B-8A58-A022C8187872} = {CF6C9604-273E-4748-BCBB-725D0C96432B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CDF552AF-AAE3-4C41-8410-96595A4374F7}

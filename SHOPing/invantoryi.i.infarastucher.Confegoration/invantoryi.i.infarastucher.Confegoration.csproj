@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Invantoriy.Application\Invantoriy.Application.csproj" />
+    <ProjectReference Include="..\invantoriy.Domin\Domin_invantorii.csproj" />
+    <ProjectReference Include="..\M_invantori.Infarastucher.EFcor\M_invantori.Infarastucher.EFcor.csproj" />
+  </ItemGroup>
+
+</Project>

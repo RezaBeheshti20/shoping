@@ -1,4 +1,5 @@
 using DisCunt.Configration;
+using invantoryi.i.infarastucher.Confegoration;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -28,6 +29,7 @@ namespace ServiesHost
             var Connenctionstring = Configuration.GetConnectionString("LampShade");
             Shop_M_Boosterapper.Configure(services,Connenctionstring);
             DiscuntBootstarpper.Configure(services,Connenctionstring);
+            invantoriBottstraper.Configure(services,Connenctionstring);
             services.AddRazorPages();
         }
 

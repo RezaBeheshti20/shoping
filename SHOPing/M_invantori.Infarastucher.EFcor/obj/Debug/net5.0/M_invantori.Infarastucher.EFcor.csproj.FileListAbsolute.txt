@@ -1,0 +1,28 @@
+C:\Git2\SHOPing\M_invantori.Infarastucher.EFcor\bin\Debug\net5.0\M_invantori.Infarastucher.EFcor.deps.json
+C:\Git2\SHOPing\M_invantori.Infarastucher.EFcor\bin\Debug\net5.0\M_invantori.Infarastucher.EFcor.runtimeconfig.json
+C:\Git2\SHOPing\M_invantori.Infarastucher.EFcor\bin\Debug\net5.0\M_invantori.Infarastucher.EFcor.runtimeconfig.dev.json
+C:\Git2\SHOPing\M_invantori.Infarastucher.EFcor\bin\Debug\net5.0\M_invantori.Infarastucher.EFcor.dll
+C:\Git2\SHOPing\M_invantori.Infarastucher.EFcor\bin\Debug\net5.0\M_invantori.Infarastucher.EFcor.pdb
+C:\Git2\SHOPing\M_invantori.Infarastucher.EFcor\bin\Debug\net5.0\0_Frimwork.dll
+C:\Git2\SHOPing\M_invantori.Infarastucher.EFcor\bin\Debug\net5.0\Domin_invantorii.dll
+C:\Git2\SHOPing\M_invantori.Infarastucher.EFcor\bin\Debug\net5.0\Invantoriy.Application.Conterxt.dll
+C:\Git2\SHOPing\M_invantori.Infarastucher.EFcor\bin\Debug\net5.0\SHop  m Domin.dll
+C:\Git2\SHOPing\M_invantori.Infarastucher.EFcor\bin\Debug\net5.0\Shop M  Applicaion _Cotexet.dll
+C:\Git2\SHOPing\M_invantori.Infarastucher.EFcor\bin\Debug\net5.0\Shop _M_infrasutacherEFCore.dll
+C:\Git2\SHOPing\M_invantori.Infarastucher.EFcor\bin\Debug\net5.0\Domin_invantorii.pdb
+C:\Git2\SHOPing\M_invantori.Infarastucher.EFcor\bin\Debug\net5.0\Shop _M_infrasutacherEFCore.pdb
+C:\Git2\SHOPing\M_invantori.Infarastucher.EFcor\bin\Debug\net5.0\0_Frimwork.pdb
+C:\Git2\SHOPing\M_invantori.Infarastucher.EFcor\bin\Debug\net5.0\Invantoriy.Application.Conterxt.pdb
+C:\Git2\SHOPing\M_invantori.Infarastucher.EFcor\bin\Debug\net5.0\SHop  m Domin.pdb
+C:\Git2\SHOPing\M_invantori.Infarastucher.EFcor\bin\Debug\net5.0\Shop M  Applicaion _Cotexet.pdb
+C:\Git2\SHOPing\M_invantori.Infarastucher.EFcor\obj\Debug\net5.0\M_invantori.Infarastucher.EFcor.csproj.AssemblyReference.cache
+C:\Git2\SHOPing\M_invantori.Infarastucher.EFcor\obj\Debug\net5.0\M_invantori.Infarastucher.EFcor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Git2\SHOPing\M_invantori.Infarastucher.EFcor\obj\Debug\net5.0\M_invantori.Infarastucher.EFcor.AssemblyInfoInputs.cache
+C:\Git2\SHOPing\M_invantori.Infarastucher.EFcor\obj\Debug\net5.0\M_invantori.Infarastucher.EFcor.AssemblyInfo.cs
+C:\Git2\SHOPing\M_invantori.Infarastucher.EFcor\obj\Debug\net5.0\M_invantori.Infarastucher.EFcor.csproj.CoreCompileInputs.cache
+C:\Git2\SHOPing\M_invantori.Infarastucher.EFcor\obj\Debug\net5.0\M_invantori.Infarastucher.EFcor.csproj.CopyComplete
+C:\Git2\SHOPing\M_invantori.Infarastucher.EFcor\obj\Debug\net5.0\M_invantori.Infarastucher.EFcor.dll
+C:\Git2\SHOPing\M_invantori.Infarastucher.EFcor\obj\Debug\net5.0\refint\M_invantori.Infarastucher.EFcor.dll
+C:\Git2\SHOPing\M_invantori.Infarastucher.EFcor\obj\Debug\net5.0\M_invantori.Infarastucher.EFcor.pdb
+C:\Git2\SHOPing\M_invantori.Infarastucher.EFcor\obj\Debug\net5.0\M_invantori.Infarastucher.EFcor.genruntimeconfig.cache
+C:\Git2\SHOPing\M_invantori.Infarastucher.EFcor\obj\Debug\net5.0\ref\M_invantori.Infarastucher.EFcor.dll

@@ -2410,6 +2410,79 @@
           "bin/placeholder/DisCuntApplicaton.dll": {}
         }
       },
+      "Domin_invantorii/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "0_Frimwork": "1.0.0",
+          "Invantoriy.Application.Conterxt": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Domin_invantorii.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Domin_invantorii.dll": {}
+        }
+      },
+      "Invantoriy.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Domin_invantorii": "1.0.0",
+          "Invantoriy.Application.Conterxt": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Invantoriy.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Invantoriy.Application.dll": {}
+        }
+      },
+      "Invantoriy.Application.Conterxt/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "0_Frimwork": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Invantoriy.Application.Conterxt.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Invantoriy.Application.Conterxt.dll": {}
+        }
+      },
+      "invantoryi.i.infarastucher.Confegoration/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Domin_invantorii": "1.0.0",
+          "Invantoriy.Application": "1.0.0",
+          "M_invantori.Infarastucher.EFcor": "1.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "5.0.0"
+        },
+        "compile": {
+          "bin/placeholder/invantoryi.i.infarastucher.Confegoration.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/invantoryi.i.infarastucher.Confegoration.dll": {}
+        }
+      },
+      "M_invantori.Infarastucher.EFcor/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Domin_invantorii": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "5.0.1",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.1",
+          "Shop _M_infrasutacherEFCore": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/M_invantori.Infarastucher.EFcor.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/M_invantori.Infarastucher.EFcor.dll": {}
+        }
+      },
       "SHop  m Domin/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -7623,6 +7696,31 @@
       "path": "../DisCuntApplicaton/DisCuntApplicaton.csproj",
       "msbuildProject": "../DisCuntApplicaton/DisCuntApplicaton.csproj"
     },
+    "Domin_invantorii/1.0.0": {
+      "type": "project",
+      "path": "../invantoriy.Domin/Domin_invantorii.csproj",
+      "msbuildProject": "../invantoriy.Domin/Domin_invantorii.csproj"
+    },
+    "Invantoriy.Application/1.0.0": {
+      "type": "project",
+      "path": "../Invantoriy.Application/Invantoriy.Application.csproj",
+      "msbuildProject": "../Invantoriy.Application/Invantoriy.Application.csproj"
+    },
+    "Invantoriy.Application.Conterxt/1.0.0": {
+      "type": "project",
+      "path": "../Invantoriy.Application.Conterxt/Invantoriy.Application.Conterxt.csproj",
+      "msbuildProject": "../Invantoriy.Application.Conterxt/Invantoriy.Application.Conterxt.csproj"
+    },
+    "invantoryi.i.infarastucher.Confegoration/1.0.0": {
+      "type": "project",
+      "path": "../invantoryi.i.infarastucher.Confegoration/invantoryi.i.infarastucher.Confegoration.csproj",
+      "msbuildProject": "../invantoryi.i.infarastucher.Confegoration/invantoryi.i.infarastucher.Confegoration.csproj"
+    },
+    "M_invantori.Infarastucher.EFcor/1.0.0": {
+      "type": "project",
+      "path": "../M_invantori.Infarastucher.EFcor/M_invantori.Infarastucher.EFcor.csproj",
+      "msbuildProject": "../M_invantori.Infarastucher.EFcor/M_invantori.Infarastucher.EFcor.csproj"
+    },
     "SHop  m Domin/1.0.0": {
       "type": "project",
       "path": "../SHop  m Domin/SHop  m Domin.csproj",
@@ -7654,7 +7752,8 @@
       "DisCunt.Configration >= 1.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 5.0.1",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 5.0.2",
-      "Shop_ M_ConFigoriton >= 1.0.0"
+      "Shop_ M_ConFigoriton >= 1.0.0",
+      "invantoryi.i.infarastucher.Confegoration >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -7686,6 +7785,9 @@
           "projectReferences": {
             "C:\\Git2\\SHOPing\\DisCunt.Configration\\DisCunt.Configration.csproj": {
               "projectPath": "C:\\Git2\\SHOPing\\DisCunt.Configration\\DisCunt.Configration.csproj"
+            },
+            "C:\\Git2\\SHOPing\\invantoryi.i.infarastucher.Confegoration\\invantoryi.i.infarastucher.Confegoration.csproj": {
+              "projectPath": "C:\\Git2\\SHOPing\\invantoryi.i.infarastucher.Confegoration\\invantoryi.i.infarastucher.Confegoration.csproj"
             },
             "C:\\Git2\\SHOPing\\Shop_ M_ConFigoriton\\Shop_ M_ConFigoriton.csproj": {
               "projectPath": "C:\\Git2\\SHOPing\\Shop_ M_ConFigoriton\\Shop_ M_ConFigoriton.csproj"

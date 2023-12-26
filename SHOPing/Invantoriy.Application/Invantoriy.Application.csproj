@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Invantoriy.Application.Conterxt\Invantoriy.Application.Conterxt.csproj" />
+    <ProjectReference Include="..\invantoriy.Domin\Domin_invantorii.csproj" />
+  </ItemGroup>
+
+</Project>

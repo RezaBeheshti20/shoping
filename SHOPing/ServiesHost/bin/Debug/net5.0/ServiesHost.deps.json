@@ -36,6 +36,7 @@
           "DisCunt.Configration": "1.0.0",
           "Microsoft.EntityFrameworkCore.Design": "5.0.1",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "5.0.2",
+          "invantoryi.i.infarastucher.Confegoration": "1.0.0",
           "Microsoft.AspNetCore.Antiforgery": "5.0.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "5.0.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "5.0.0.0",
@@ -1871,6 +1872,56 @@
         },
         "compile": {
           "DisCuntApplicaton.dll": {}
+        }
+      },
+      "Domin_invantorii/1.0.0": {
+        "dependencies": {
+          "0_Frimwork": "1.0.0",
+          "Invantoriy.Application.Conterxt": "1.0.0"
+        },
+        "runtime": {
+          "Domin_invantorii.dll": {}
+        },
+        "compile": {
+          "Domin_invantorii.dll": {}
+        }
+      },
+      "Invantoriy.Application.Conterxt/1.0.0": {
+        "dependencies": {
+          "0_Frimwork": "1.0.0"
+        },
+        "runtime": {
+          "Invantoriy.Application.Conterxt.dll": {}
+        },
+        "compile": {
+          "Invantoriy.Application.Conterxt.dll": {}
+        }
+      },
+      "invantoryi.i.infarastucher.Confegoration/1.0.0": {
+        "dependencies": {
+          "Domin_invantorii": "1.0.0",
+          "M_invantori.Infarastucher.EFcor": "1.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "5.0.0"
+        },
+        "runtime": {
+          "invantoryi.i.infarastucher.Confegoration.dll": {}
+        },
+        "compile": {
+          "invantoryi.i.infarastucher.Confegoration.dll": {}
+        }
+      },
+      "M_invantori.Infarastucher.EFcor/1.0.0": {
+        "dependencies": {
+          "Domin_invantorii": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "5.0.1",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.1",
+          "Shop _M_infrasutacherEFCore": "1.0.0"
+        },
+        "runtime": {
+          "M_invantori.Infarastucher.EFcor.dll": {}
+        },
+        "compile": {
+          "M_invantori.Infarastucher.EFcor.dll": {}
         }
       },
       "SHop  m Domin/1.0.0": {
@@ -4529,6 +4580,26 @@
       "sha512": ""
     },
     "DisCuntApplicaton/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Domin_invantorii/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Invantoriy.Application.Conterxt/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "invantoryi.i.infarastucher.Confegoration/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "M_invantori.Infarastucher.EFcor/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -14,6 +14,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\DisCunt.Configration\DisCunt.Configration.csproj" />
+    <ProjectReference Include="..\invantoryi.i.infarastucher.Confegoration\invantoryi.i.infarastucher.Confegoration.csproj" />
     <ProjectReference Include="..\Shop_ M_ConFigoriton\Shop_ M_ConFigoriton.csproj" />
   </ItemGroup>
 

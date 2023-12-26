@@ -621,9 +621,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Git2\\SHOPing\\invantoriy.Domin\\invantoriy.Domin.csproj",
-      "projectName": "invantoriy.Domin",
-      "projectPath": "C:\\Git2\\SHOPing\\invantoriy.Domin\\invantoriy.Domin.csproj",
+      "projectUniqueName": "C:\\Git2\\SHOPing\\invantoriy.Domin\\Domin_invantorii.csproj",
+      "projectName": "Domin_invantorii",
+      "projectPath": "C:\\Git2\\SHOPing\\invantoriy.Domin\\Domin_invantorii.csproj",
       "packagesPath": "C:\\Users\\PSP\\.nuget\\packages\\",
       "outputPath": "C:\\Git2\\SHOPing\\invantoriy.Domin\\obj\\",
       "projectStyle": "PackageReference",
