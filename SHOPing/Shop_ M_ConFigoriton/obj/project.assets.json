@@ -1768,6 +1768,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
+          "Discontinfarstuacher": "1.0.0",
+          "M_invantori.Infarastucher.EFcor": "1.0.0",
           "Shop _M_infrasutacherEFCore": "1.0.0"
         },
         "compile": {
@@ -1788,6 +1790,94 @@
         },
         "runtime": {
           "bin/placeholder/0_Frimwork.dll": {}
+        }
+      },
+      "DicuntM_Domin/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "0_Frimwork": "1.0.0",
+          "Discunt Application_Coteract": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DicuntM_Domin.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DicuntM_Domin.dll": {}
+        }
+      },
+      "Discontinfarstuacher/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "DicuntM_Domin": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "5.0.1",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.1",
+          "Shop _M_infrasutacherEFCore": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Discontinfarstuacher.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Discontinfarstuacher.dll": {}
+        }
+      },
+      "Discunt Application_Coteract/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "0_Frimwork": "1.0.0",
+          "Shop M  Applicaion _Cotexet": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Discunt Application_Coteract.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Discunt Application_Coteract.dll": {}
+        }
+      },
+      "Domin_invantorii/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "0_Frimwork": "1.0.0",
+          "Invantoriy.Application.Conterxt": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Domin_invantorii.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Domin_invantorii.dll": {}
+        }
+      },
+      "Invantoriy.Application.Conterxt/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "0_Frimwork": "1.0.0",
+          "Shop M  Applicaion _Cotexet": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Invantoriy.Application.Conterxt.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Invantoriy.Application.Conterxt.dll": {}
+        }
+      },
+      "M_invantori.Infarastucher.EFcor/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Domin_invantorii": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "5.0.1",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.1",
+          "Shop _M_infrasutacherEFCore": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/M_invantori.Infarastucher.EFcor.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/M_invantori.Infarastucher.EFcor.dll": {}
         }
       },
       "SHop  m Domin/1.0.0": {
@@ -6122,6 +6212,36 @@
       "type": "project",
       "path": "../0_Frimwork/0_Frimwork.csproj",
       "msbuildProject": "../0_Frimwork/0_Frimwork.csproj"
+    },
+    "DicuntM_Domin/1.0.0": {
+      "type": "project",
+      "path": "../DicuntM_Domin/DicuntM_Domin.csproj",
+      "msbuildProject": "../DicuntM_Domin/DicuntM_Domin.csproj"
+    },
+    "Discontinfarstuacher/1.0.0": {
+      "type": "project",
+      "path": "../Discontinfarstuacher/Discontinfarstuacher.csproj",
+      "msbuildProject": "../Discontinfarstuacher/Discontinfarstuacher.csproj"
+    },
+    "Discunt Application_Coteract/1.0.0": {
+      "type": "project",
+      "path": "../Discunt Application_Coteract/Discunt Application_Coteract.csproj",
+      "msbuildProject": "../Discunt Application_Coteract/Discunt Application_Coteract.csproj"
+    },
+    "Domin_invantorii/1.0.0": {
+      "type": "project",
+      "path": "../invantoriy.Domin/Domin_invantorii.csproj",
+      "msbuildProject": "../invantoriy.Domin/Domin_invantorii.csproj"
+    },
+    "Invantoriy.Application.Conterxt/1.0.0": {
+      "type": "project",
+      "path": "../Invantoriy.Application.Conterxt/Invantoriy.Application.Conterxt.csproj",
+      "msbuildProject": "../Invantoriy.Application.Conterxt/Invantoriy.Application.Conterxt.csproj"
+    },
+    "M_invantori.Infarastucher.EFcor/1.0.0": {
+      "type": "project",
+      "path": "../M_invantori.Infarastucher.EFcor/M_invantori.Infarastucher.EFcor.csproj",
+      "msbuildProject": "../M_invantori.Infarastucher.EFcor/M_invantori.Infarastucher.EFcor.csproj"
     },
     "SHop  m Domin/1.0.0": {
       "type": "project",

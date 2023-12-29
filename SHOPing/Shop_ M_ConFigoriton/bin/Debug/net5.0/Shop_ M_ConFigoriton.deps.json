@@ -1064,6 +1064,8 @@
       },
       "01-LampQuery/1.0.0": {
         "dependencies": {
+          "Discontinfarstuacher": "1.0.0",
+          "M_invantori.Infarastucher.EFcor": "1.0.0",
           "Shop _M_infrasutacherEFCore": "1.0.0"
         },
         "runtime": {
@@ -1076,6 +1078,64 @@
         },
         "runtime": {
           "0_Frimwork.dll": {}
+        }
+      },
+      "DicuntM_Domin/1.0.0": {
+        "dependencies": {
+          "0_Frimwork": "1.0.0",
+          "Discunt Application_Coteract": "1.0.0"
+        },
+        "runtime": {
+          "DicuntM_Domin.dll": {}
+        }
+      },
+      "Discontinfarstuacher/1.0.0": {
+        "dependencies": {
+          "DicuntM_Domin": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "5.0.1",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.1",
+          "Shop _M_infrasutacherEFCore": "1.0.0"
+        },
+        "runtime": {
+          "Discontinfarstuacher.dll": {}
+        }
+      },
+      "Discunt Application_Coteract/1.0.0": {
+        "dependencies": {
+          "0_Frimwork": "1.0.0",
+          "Shop M  Applicaion _Cotexet": "1.0.0"
+        },
+        "runtime": {
+          "Discunt Application_Coteract.dll": {}
+        }
+      },
+      "Domin_invantorii/1.0.0": {
+        "dependencies": {
+          "0_Frimwork": "1.0.0",
+          "Invantoriy.Application.Conterxt": "1.0.0"
+        },
+        "runtime": {
+          "Domin_invantorii.dll": {}
+        }
+      },
+      "Invantoriy.Application.Conterxt/1.0.0": {
+        "dependencies": {
+          "0_Frimwork": "1.0.0",
+          "Shop M  Applicaion _Cotexet": "1.0.0"
+        },
+        "runtime": {
+          "Invantoriy.Application.Conterxt.dll": {}
+        }
+      },
+      "M_invantori.Infarastucher.EFcor/1.0.0": {
+        "dependencies": {
+          "Domin_invantorii": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "5.0.1",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.1",
+          "Shop _M_infrasutacherEFCore": "1.0.0"
+        },
+        "runtime": {
+          "M_invantori.Infarastucher.EFcor.dll": {}
         }
       },
       "SHop  m Domin/1.0.0": {
@@ -1806,6 +1866,36 @@
       "sha512": ""
     },
     "0_Frimwork/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DicuntM_Domin/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Discontinfarstuacher/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Discunt Application_Coteract/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Domin_invantorii/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Invantoriy.Application.Conterxt/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "M_invantori.Infarastucher.EFcor/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

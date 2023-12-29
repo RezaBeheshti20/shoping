@@ -28,6 +28,12 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
+              "C:\\Git2\\SHOPing\\Discontinfarstuacher\\Discontinfarstuacher.csproj": {
+                "projectPath": "C:\\Git2\\SHOPing\\Discontinfarstuacher\\Discontinfarstuacher.csproj"
+              },
+              "C:\\Git2\\SHOPing\\M_invantori.Infarastucher.EFcor\\M_invantori.Infarastucher.EFcor.csproj": {
+                "projectPath": "C:\\Git2\\SHOPing\\M_invantori.Infarastucher.EFcor\\M_invantori.Infarastucher.EFcor.csproj"
+              },
               "C:\\Git2\\SHOPing\\Shop _M_infrasutacher\\Shop _M_infrasutacherEFCore.csproj": {
                 "projectPath": "C:\\Git2\\SHOPing\\Shop _M_infrasutacher\\Shop _M_infrasutacherEFCore.csproj"
               }
@@ -488,6 +494,9 @@
             "projectReferences": {
               "C:\\Git2\\SHOPing\\0_Frimwork\\0_Frimwork.csproj": {
                 "projectPath": "C:\\Git2\\SHOPing\\0_Frimwork\\0_Frimwork.csproj"
+              },
+              "C:\\Git2\\SHOPing\\Shop M  Applicaion _Cotexet\\Shop M  Applicaion _Cotexet.csproj": {
+                "projectPath": "C:\\Git2\\SHOPing\\Shop M  Applicaion _Cotexet\\Shop M  Applicaion _Cotexet.csproj"
               }
             }
           }

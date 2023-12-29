@@ -19,3 +19,15 @@ C:\Git2\SHOPing\01-LampQuery\obj\Debug\net5.0\01-LampQuery.dll
 C:\Git2\SHOPing\01-LampQuery\obj\Debug\net5.0\refint\01-LampQuery.dll
 C:\Git2\SHOPing\01-LampQuery\obj\Debug\net5.0\01-LampQuery.pdb
 C:\Git2\SHOPing\01-LampQuery\obj\Debug\net5.0\ref\01-LampQuery.dll
+C:\Git2\SHOPing\01-LampQuery\bin\Debug\net5.0\Domin_invantorii.dll
+C:\Git2\SHOPing\01-LampQuery\bin\Debug\net5.0\Invantoriy.Application.Conterxt.dll
+C:\Git2\SHOPing\01-LampQuery\bin\Debug\net5.0\M_invantori.Infarastucher.EFcor.dll
+C:\Git2\SHOPing\01-LampQuery\bin\Debug\net5.0\M_invantori.Infarastucher.EFcor.pdb
+C:\Git2\SHOPing\01-LampQuery\bin\Debug\net5.0\Domin_invantorii.pdb
+C:\Git2\SHOPing\01-LampQuery\bin\Debug\net5.0\Invantoriy.Application.Conterxt.pdb
+C:\Git2\SHOPing\01-LampQuery\bin\Debug\net5.0\DicuntM_Domin.dll
+C:\Git2\SHOPing\01-LampQuery\bin\Debug\net5.0\Discontinfarstuacher.dll
+C:\Git2\SHOPing\01-LampQuery\bin\Debug\net5.0\Discunt Application_Coteract.dll
+C:\Git2\SHOPing\01-LampQuery\bin\Debug\net5.0\Discontinfarstuacher.pdb
+C:\Git2\SHOPing\01-LampQuery\bin\Debug\net5.0\DicuntM_Domin.pdb
+C:\Git2\SHOPing\01-LampQuery\bin\Debug\net5.0\Discunt Application_Coteract.pdb

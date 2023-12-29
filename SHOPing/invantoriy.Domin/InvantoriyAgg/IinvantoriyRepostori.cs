@@ -1,6 +1,7 @@
 ﻿using _0_Frimwork.Domin;
 using Domin_invantorii.InvantoriyAgg;
 using Invantoriy.Application.Conterxt.Invantory;
+using Invantoriy.Application.Conterxt.Invantoryy;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,5 +15,6 @@ namespace invantoriy.Domin.InvantoriyAgg
         EditInvantoriy GetDetails(long id);
         Invantoriyy GetBy(long prductId);
         List<InvantoriyViewModel> Saerch(InvantoriySearchModel searchModel);
+        List<InvantoriyOperationViewModel> GetOperationLog(long invantoriyId);
     }
 }

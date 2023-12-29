@@ -61,7 +61,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "M_invantori.Infarastucher.E
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "invantoryi.i.infarastucher.Confegoration", "invantoryi.i.infarastucher.Confegoration\invantoryi.i.infarastucher.Confegoration.csproj", "{5EBF8194-6E05-449B-B394-C803F41071C0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Invantoriy.Application", "Invantoriy.Application\Invantoriy.Application.csproj", "{66A65DC9-3614-4A2B-8A58-A022C8187872}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Invantoriy.Application", "Invantoriy.Application\Invantoriy.Application.csproj", "{66A65DC9-3614-4A2B-8A58-A022C8187872}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

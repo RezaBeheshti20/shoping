@@ -2313,6 +2313,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
+          "Discontinfarstuacher": "1.0.0",
+          "M_invantori.Infarastucher.EFcor": "1.0.0",
           "Shop _M_infrasutacherEFCore": "1.0.0"
         },
         "compile": {
@@ -2442,7 +2444,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
-          "0_Frimwork": "1.0.0"
+          "0_Frimwork": "1.0.0",
+          "Shop M  Applicaion _Cotexet": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Invantoriy.Application.Conterxt.dll": {}

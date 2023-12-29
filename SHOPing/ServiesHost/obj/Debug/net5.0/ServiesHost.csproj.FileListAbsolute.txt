@@ -38,7 +38,6 @@ C:\Git2\SHOPing\ServiesHost\obj\Debug\net5.0\Razor\Pages\Shared\Components\Foote
 C:\Git2\SHOPing\ServiesHost\obj\Debug\net5.0\Razor\Pages\Shared\Components\LatestArrivals\Default.cshtml.g.cs
 C:\Git2\SHOPing\ServiesHost\obj\Debug\net5.0\Razor\Pages\Shared\Components\LatestArticles\Default.cshtml.g.cs
 C:\Git2\SHOPing\ServiesHost\obj\Debug\net5.0\Razor\Pages\Shared\Components\Menu\Default.cshtml.g.cs
-C:\Git2\SHOPing\ServiesHost\obj\Debug\net5.0\Razor\Pages\Shared\Components\ProductCategoryWithProduct\Default.cshtml.g.cs
 C:\Git2\SHOPing\ServiesHost\obj\Debug\net5.0\Razor\Pages\Shared\Components\ProductCategory\Default.cshtml.g.cs
 C:\Git2\SHOPing\ServiesHost\obj\Debug\net5.0\Razor\Pages\Shared\Components\Slide\Default.cshtml.g.cs
 C:\Git2\SHOPing\ServiesHost\obj\Debug\net5.0\Razor\Pages\Shared\_Layout.cshtml.g.cs
@@ -210,3 +209,12 @@ C:\Git2\SHOPing\ServiesHost\bin\Debug\net5.0\invantoryi.i.infarastucher.Confegor
 C:\Git2\SHOPing\ServiesHost\bin\Debug\net5.0\Domin_invantorii.pdb
 C:\Git2\SHOPing\ServiesHost\bin\Debug\net5.0\Invantoriy.Application.Conterxt.pdb
 C:\Git2\SHOPing\ServiesHost\bin\Debug\net5.0\M_invantori.Infarastucher.EFcor.pdb
+C:\Git2\SHOPing\ServiesHost\obj\Debug\net5.0\Razor\Areas\AddMin\Page\Invantoriyyy\Create.cshtml.g.cs
+C:\Git2\SHOPing\ServiesHost\obj\Debug\net5.0\Razor\Areas\AddMin\Page\Invantoriyyy\Edit.cshtml.g.cs
+C:\Git2\SHOPing\ServiesHost\obj\Debug\net5.0\Razor\Areas\AddMin\Page\Invantoriyyy\Incresase.cshtml.g.cs
+C:\Git2\SHOPing\ServiesHost\obj\Debug\net5.0\Razor\Areas\AddMin\Page\Invantoriyyy\Index.cshtml.g.cs
+C:\Git2\SHOPing\ServiesHost\obj\Debug\net5.0\Razor\Areas\AddMin\Page\Invantoriyyy\Reducse.cshtml.g.cs
+C:\Git2\SHOPing\ServiesHost\bin\Debug\net5.0\Invantoriy.Application.dll
+C:\Git2\SHOPing\ServiesHost\bin\Debug\net5.0\Invantoriy.Application.pdb
+C:\Git2\SHOPing\ServiesHost\obj\Debug\net5.0\Razor\Pages\Shared\Components\ProductCategoriysWithProducts\Default.cshtml.g.cs
+C:\Git2\SHOPing\ServiesHost\obj\Debug\net5.0\Razor\Pages\ProductCategoriy.cshtml.g.cs

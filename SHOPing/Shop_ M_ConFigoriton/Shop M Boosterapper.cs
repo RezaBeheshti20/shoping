@@ -1,4 +1,5 @@
-﻿using _01_LampQuery.Conterctes.ProductCategoryQure;
+﻿using _01_LampQuery.Conterctes.Product;
+using _01_LampQuery.Conterctes.ProductCategoryQure;
 using _01_LampQuery.Conterctes.Slid;
 using _01_LampQuery.Qure;
 using Microsoft.EntityFrameworkCore;
@@ -42,6 +43,10 @@ namespace Shop__M_ConFigoriton
 
             service.AddTransient<ISlidQure,SlidQure>();
             service.AddTransient<IProductCategoryQure, ProductCategoryQure>();
+            service.AddTransient<IProductQure , ProductQure>();
+
+
+
 
             service.AddDbContext<ShopContext>(x => x.UseSqlServer(connectionString));
 

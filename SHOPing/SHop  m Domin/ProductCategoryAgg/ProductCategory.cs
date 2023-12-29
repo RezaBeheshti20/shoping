@@ -10,6 +10,8 @@ namespace SHop__m_Domin.ProductCategoryAgg
 {
     public class ProductCategory: EntityBase
     {
+        public List<Product> Products;
+
         public string Name { get;private set; }
         public string Description { get;private set; }
 

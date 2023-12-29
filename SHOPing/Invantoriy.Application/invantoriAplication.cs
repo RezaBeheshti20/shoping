@@ -2,6 +2,7 @@
 using Domin_invantorii.InvantoriyAgg;
 using invantoriy.Domin.InvantoriyAgg;
 using Invantoriy.Application.Conterxt.Invantory;
+using Invantoriy.Application.Conterxt.Invantoryy;
 using System;
 using System.Collections.Generic;
 
@@ -46,6 +47,11 @@ namespace Invantoriy.Application
         public EditInvantoriy GetDetails(long id)
         {
             return _invantoriyRepostori.GetDetails(id);
+        }
+
+        public List<InvantoriyOperationViewModel> GetOperationLog(long invantoriyId)
+        {
+           return _invantoriyRepostori.GetOperationLog(invantoriyId);
         }
 
         public OpratinResult Increasase(IncresaseInvantoriy command)

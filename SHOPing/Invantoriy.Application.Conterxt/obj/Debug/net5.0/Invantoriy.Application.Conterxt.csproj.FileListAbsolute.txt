@@ -13,3 +13,5 @@ C:\Git2\SHOPing\Invantoriy.Application.Conterxt\obj\Debug\net5.0\Invantoriy.Appl
 C:\Git2\SHOPing\Invantoriy.Application.Conterxt\obj\Debug\net5.0\refint\Invantoriy.Application.Conterxt.dll
 C:\Git2\SHOPing\Invantoriy.Application.Conterxt\obj\Debug\net5.0\Invantoriy.Application.Conterxt.pdb
 C:\Git2\SHOPing\Invantoriy.Application.Conterxt\obj\Debug\net5.0\ref\Invantoriy.Application.Conterxt.dll
+C:\Git2\SHOPing\Invantoriy.Application.Conterxt\bin\Debug\net5.0\Shop M  Applicaion _Cotexet.dll
+C:\Git2\SHOPing\Invantoriy.Application.Conterxt\bin\Debug\net5.0\Shop M  Applicaion _Cotexet.pdb

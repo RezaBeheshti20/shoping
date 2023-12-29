@@ -25,3 +25,5 @@ C:\Git2\SHOPing\invantoryi.i.infarastucher.Confegoration\obj\Debug\net5.0\invant
 C:\Git2\SHOPing\invantoryi.i.infarastucher.Confegoration\obj\Debug\net5.0\refint\invantoryi.i.infarastucher.Confegoration.dll
 C:\Git2\SHOPing\invantoryi.i.infarastucher.Confegoration\obj\Debug\net5.0\invantoryi.i.infarastucher.Confegoration.pdb
 C:\Git2\SHOPing\invantoryi.i.infarastucher.Confegoration\obj\Debug\net5.0\ref\invantoryi.i.infarastucher.Confegoration.dll
+C:\Git2\SHOPing\invantoryi.i.infarastucher.Confegoration\bin\Debug\net5.0\Invantoriy.Application.dll
+C:\Git2\SHOPing\invantoryi.i.infarastucher.Confegoration\bin\Debug\net5.0\Invantoriy.Application.pdb

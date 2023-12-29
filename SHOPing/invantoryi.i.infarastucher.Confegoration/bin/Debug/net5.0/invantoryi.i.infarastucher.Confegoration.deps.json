@@ -9,6 +9,7 @@
       "invantoryi.i.infarastucher.Confegoration/1.0.0": {
         "dependencies": {
           "Domin_invantorii": "1.0.0",
+          "Invantoriy.Application": "1.0.0",
           "M_invantori.Infarastucher.EFcor": "1.0.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "5.0.0"
         },
@@ -1051,9 +1052,19 @@
           "Domin_invantorii.dll": {}
         }
       },
+      "Invantoriy.Application/1.0.0": {
+        "dependencies": {
+          "Domin_invantorii": "1.0.0",
+          "Invantoriy.Application.Conterxt": "1.0.0"
+        },
+        "runtime": {
+          "Invantoriy.Application.dll": {}
+        }
+      },
       "Invantoriy.Application.Conterxt/1.0.0": {
         "dependencies": {
-          "0_Frimwork": "1.0.0"
+          "0_Frimwork": "1.0.0",
+          "Shop M  Applicaion _Cotexet": "1.0.0"
         },
         "runtime": {
           "Invantoriy.Application.Conterxt.dll": {}
@@ -1769,6 +1780,11 @@
       "sha512": ""
     },
     "Domin_invantorii/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Invantoriy.Application/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

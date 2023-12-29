@@ -28,6 +28,12 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
+              "C:\\Git2\\SHOPing\\Discontinfarstuacher\\Discontinfarstuacher.csproj": {
+                "projectPath": "C:\\Git2\\SHOPing\\Discontinfarstuacher\\Discontinfarstuacher.csproj"
+              },
+              "C:\\Git2\\SHOPing\\M_invantori.Infarastucher.EFcor\\M_invantori.Infarastucher.EFcor.csproj": {
+                "projectPath": "C:\\Git2\\SHOPing\\M_invantori.Infarastucher.EFcor\\M_invantori.Infarastucher.EFcor.csproj"
+              },
               "C:\\Git2\\SHOPing\\Shop _M_infrasutacher\\Shop _M_infrasutacherEFCore.csproj": {
                 "projectPath": "C:\\Git2\\SHOPing\\Shop _M_infrasutacher\\Shop _M_infrasutacherEFCore.csproj"
               }
@@ -100,6 +106,410 @@
           "targetAlias": "net5.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Git2\\SHOPing\\DicuntM_Domin\\DicuntM_Domin.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Git2\\SHOPing\\DicuntM_Domin\\DicuntM_Domin.csproj",
+        "projectName": "DicuntM_Domin",
+        "projectPath": "C:\\Git2\\SHOPing\\DicuntM_Domin\\DicuntM_Domin.csproj",
+        "packagesPath": "C:\\Users\\PSP\\.nuget\\packages\\",
+        "outputPath": "C:\\Git2\\SHOPing\\DicuntM_Domin\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\PSP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Git2\\SHOPing\\0_Frimwork\\0_Frimwork.csproj": {
+                "projectPath": "C:\\Git2\\SHOPing\\0_Frimwork\\0_Frimwork.csproj"
+              },
+              "C:\\Git2\\SHOPing\\Discunt Application_Coteract\\Discunt Application_Coteract.csproj": {
+                "projectPath": "C:\\Git2\\SHOPing\\Discunt Application_Coteract\\Discunt Application_Coteract.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Git2\\SHOPing\\Discontinfarstuacher\\Discontinfarstuacher.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Git2\\SHOPing\\Discontinfarstuacher\\Discontinfarstuacher.csproj",
+        "projectName": "Discontinfarstuacher",
+        "projectPath": "C:\\Git2\\SHOPing\\Discontinfarstuacher\\Discontinfarstuacher.csproj",
+        "packagesPath": "C:\\Users\\PSP\\.nuget\\packages\\",
+        "outputPath": "C:\\Git2\\SHOPing\\Discontinfarstuacher\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\PSP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Git2\\SHOPing\\DicuntM_Domin\\DicuntM_Domin.csproj": {
+                "projectPath": "C:\\Git2\\SHOPing\\DicuntM_Domin\\DicuntM_Domin.csproj"
+              },
+              "C:\\Git2\\SHOPing\\Shop _M_infrasutacher\\Shop _M_infrasutacherEFCore.csproj": {
+                "projectPath": "C:\\Git2\\SHOPing\\Shop _M_infrasutacher\\Shop _M_infrasutacherEFCore.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Git2\\SHOPing\\Discunt Application_Coteract\\Discunt Application_Coteract.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Git2\\SHOPing\\Discunt Application_Coteract\\Discunt Application_Coteract.csproj",
+        "projectName": "Discunt Application_Coteract",
+        "projectPath": "C:\\Git2\\SHOPing\\Discunt Application_Coteract\\Discunt Application_Coteract.csproj",
+        "packagesPath": "C:\\Users\\PSP\\.nuget\\packages\\",
+        "outputPath": "C:\\Git2\\SHOPing\\Discunt Application_Coteract\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\PSP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Git2\\SHOPing\\0_Frimwork\\0_Frimwork.csproj": {
+                "projectPath": "C:\\Git2\\SHOPing\\0_Frimwork\\0_Frimwork.csproj"
+              },
+              "C:\\Git2\\SHOPing\\Shop M  Applicaion _Cotexet\\Shop M  Applicaion _Cotexet.csproj": {
+                "projectPath": "C:\\Git2\\SHOPing\\Shop M  Applicaion _Cotexet\\Shop M  Applicaion _Cotexet.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Git2\\SHOPing\\Invantoriy.Application.Conterxt\\Invantoriy.Application.Conterxt.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Git2\\SHOPing\\Invantoriy.Application.Conterxt\\Invantoriy.Application.Conterxt.csproj",
+        "projectName": "Invantoriy.Application.Conterxt",
+        "projectPath": "C:\\Git2\\SHOPing\\Invantoriy.Application.Conterxt\\Invantoriy.Application.Conterxt.csproj",
+        "packagesPath": "C:\\Users\\PSP\\.nuget\\packages\\",
+        "outputPath": "C:\\Git2\\SHOPing\\Invantoriy.Application.Conterxt\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\PSP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Git2\\SHOPing\\0_Frimwork\\0_Frimwork.csproj": {
+                "projectPath": "C:\\Git2\\SHOPing\\0_Frimwork\\0_Frimwork.csproj"
+              },
+              "C:\\Git2\\SHOPing\\Shop M  Applicaion _Cotexet\\Shop M  Applicaion _Cotexet.csproj": {
+                "projectPath": "C:\\Git2\\SHOPing\\Shop M  Applicaion _Cotexet\\Shop M  Applicaion _Cotexet.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Git2\\SHOPing\\invantoriy.Domin\\Domin_invantorii.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Git2\\SHOPing\\invantoriy.Domin\\Domin_invantorii.csproj",
+        "projectName": "Domin_invantorii",
+        "projectPath": "C:\\Git2\\SHOPing\\invantoriy.Domin\\Domin_invantorii.csproj",
+        "packagesPath": "C:\\Users\\PSP\\.nuget\\packages\\",
+        "outputPath": "C:\\Git2\\SHOPing\\invantoriy.Domin\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\PSP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Git2\\SHOPing\\0_Frimwork\\0_Frimwork.csproj": {
+                "projectPath": "C:\\Git2\\SHOPing\\0_Frimwork\\0_Frimwork.csproj"
+              },
+              "C:\\Git2\\SHOPing\\Invantoriy.Application.Conterxt\\Invantoriy.Application.Conterxt.csproj": {
+                "projectPath": "C:\\Git2\\SHOPing\\Invantoriy.Application.Conterxt\\Invantoriy.Application.Conterxt.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Git2\\SHOPing\\M_invantori.Infarastucher.EFcor\\M_invantori.Infarastucher.EFcor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Git2\\SHOPing\\M_invantori.Infarastucher.EFcor\\M_invantori.Infarastucher.EFcor.csproj",
+        "projectName": "M_invantori.Infarastucher.EFcor",
+        "projectPath": "C:\\Git2\\SHOPing\\M_invantori.Infarastucher.EFcor\\M_invantori.Infarastucher.EFcor.csproj",
+        "packagesPath": "C:\\Users\\PSP\\.nuget\\packages\\",
+        "outputPath": "C:\\Git2\\SHOPing\\M_invantori.Infarastucher.EFcor\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\PSP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Git2\\SHOPing\\invantoriy.Domin\\Domin_invantorii.csproj": {
+                "projectPath": "C:\\Git2\\SHOPing\\invantoriy.Domin\\Domin_invantorii.csproj"
+              },
+              "C:\\Git2\\SHOPing\\Shop _M_infrasutacher\\Shop _M_infrasutacherEFCore.csproj": {
+                "projectPath": "C:\\Git2\\SHOPing\\Shop _M_infrasutacher\\Shop _M_infrasutacherEFCore.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[5.0.1, )"
             }

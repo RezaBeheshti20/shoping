@@ -26,3 +26,15 @@ C:\Git2\SHOPing\Shop_ M_ConFigoriton\obj\Debug\net5.0\refint\Shop_ M_ConFigorito
 C:\Git2\SHOPing\Shop_ M_ConFigoriton\obj\Debug\net5.0\Shop_ M_ConFigoriton.pdb
 C:\Git2\SHOPing\Shop_ M_ConFigoriton\obj\Debug\net5.0\Shop_ M_ConFigoriton.genruntimeconfig.cache
 C:\Git2\SHOPing\Shop_ M_ConFigoriton\obj\Debug\net5.0\ref\Shop_ M_ConFigoriton.dll
+C:\Git2\SHOPing\Shop_ M_ConFigoriton\bin\Debug\net5.0\Domin_invantorii.dll
+C:\Git2\SHOPing\Shop_ M_ConFigoriton\bin\Debug\net5.0\Invantoriy.Application.Conterxt.dll
+C:\Git2\SHOPing\Shop_ M_ConFigoriton\bin\Debug\net5.0\M_invantori.Infarastucher.EFcor.dll
+C:\Git2\SHOPing\Shop_ M_ConFigoriton\bin\Debug\net5.0\Domin_invantorii.pdb
+C:\Git2\SHOPing\Shop_ M_ConFigoriton\bin\Debug\net5.0\Invantoriy.Application.Conterxt.pdb
+C:\Git2\SHOPing\Shop_ M_ConFigoriton\bin\Debug\net5.0\M_invantori.Infarastucher.EFcor.pdb
+C:\Git2\SHOPing\Shop_ M_ConFigoriton\bin\Debug\net5.0\DicuntM_Domin.dll
+C:\Git2\SHOPing\Shop_ M_ConFigoriton\bin\Debug\net5.0\Discontinfarstuacher.dll
+C:\Git2\SHOPing\Shop_ M_ConFigoriton\bin\Debug\net5.0\Discunt Application_Coteract.dll
+C:\Git2\SHOPing\Shop_ M_ConFigoriton\bin\Debug\net5.0\DicuntM_Domin.pdb
+C:\Git2\SHOPing\Shop_ M_ConFigoriton\bin\Debug\net5.0\Discontinfarstuacher.pdb
+C:\Git2\SHOPing\Shop_ M_ConFigoriton\bin\Debug\net5.0\Discunt Application_Coteract.pdb

@@ -142,10 +142,19 @@
       },
       "Invantoriy.Application.Conterxt/1.0.0": {
         "dependencies": {
-          "0_Frimwork": "1.0.0"
+          "0_Frimwork": "1.0.0",
+          "Shop M  Applicaion _Cotexet": "1.0.0"
         },
         "runtime": {
           "Invantoriy.Application.Conterxt.dll": {}
+        }
+      },
+      "Shop M  Applicaion _Cotexet/1.0.0": {
+        "dependencies": {
+          "0_Frimwork": "1.0.0"
+        },
+        "runtime": {
+          "Shop M  Applicaion _Cotexet.dll": {}
         }
       }
     }
@@ -260,6 +269,11 @@
       "sha512": ""
     },
     "Invantoriy.Application.Conterxt/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Shop M  Applicaion _Cotexet/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

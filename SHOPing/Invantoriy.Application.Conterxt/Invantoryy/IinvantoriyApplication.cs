@@ -1,4 +1,5 @@
 ﻿using _0_Frimwork.Application;
+using Invantoriy.Application.Conterxt.Invantoryy;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,5 +17,6 @@ namespace Invantoriy.Application.Conterxt.Invantory
         OpratinResult Reduce(RedusInvantoriy command);
         EditInvantoriy GetDetails(long id);
         List<InvantoriyViewModel> Saerch(InvantoriySearchModel searchModel);
+        List<InvantoriyOperationViewModel> GetOperationLog(long invantoriyId);
     }
 }

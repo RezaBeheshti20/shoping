@@ -8,6 +8,8 @@ namespace _01_LampQuery.Conterctes.ProductCategoryQure
 {
     public interface IProductCategoryQure
     {
+        ProductCategoryQureModel GetProductCategoriyWithBayProducts(string Slug);
         List<ProductCategoryQureModel> GetProductCategories();
+        List<ProductCategoryQureModel> GetProductCategoriysWithProducts();
     }
 }

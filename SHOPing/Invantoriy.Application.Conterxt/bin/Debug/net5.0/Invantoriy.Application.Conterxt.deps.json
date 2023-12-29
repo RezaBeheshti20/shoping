@@ -138,6 +138,14 @@
         "runtime": {
           "0_Frimwork.dll": {}
         }
+      },
+      "Shop M  Applicaion _Cotexet/1.0.0": {
+        "dependencies": {
+          "0_Frimwork": "1.0.0"
+        },
+        "runtime": {
+          "Shop M  Applicaion _Cotexet.dll": {}
+        }
       }
     }
   },
@@ -246,6 +254,11 @@
       "hashPath": "system.diagnostics.diagnosticsource.5.0.0.nupkg.sha512"
     },
     "0_Frimwork/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Shop M  Applicaion _Cotexet/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

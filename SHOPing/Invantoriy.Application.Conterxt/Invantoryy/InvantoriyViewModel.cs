@@ -14,6 +14,6 @@ namespace Invantoriy.Application.Conterxt.Invantory
         public double UnitPrice { get; set; }
         public bool InStock { get; set; }
         public long CurntCunt { get; set; }
-
+        public string CreationDate { get; set; }
     }
 }

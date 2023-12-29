@@ -1080,7 +1080,8 @@
       },
       "Invantoriy.Application.Conterxt/1.0.0": {
         "dependencies": {
-          "0_Frimwork": "1.0.0"
+          "0_Frimwork": "1.0.0",
+          "Shop M  Applicaion _Cotexet": "1.0.0"
         },
         "runtime": {
           "Invantoriy.Application.Conterxt.dll": {}

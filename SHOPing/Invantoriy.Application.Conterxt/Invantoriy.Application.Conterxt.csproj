@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\0_Frimwork\0_Frimwork.csproj" />
+    <ProjectReference Include="..\Shop M  Applicaion _Cotexet\Shop M  Applicaion _Cotexet.csproj" />
   </ItemGroup>
 
 </Project>

@@ -225,6 +225,19 @@
         "runtime": {
           "bin/placeholder/0_Frimwork.dll": {}
         }
+      },
+      "Shop M  Applicaion _Cotexet/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "0_Frimwork": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Shop M  Applicaion _Cotexet.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Shop M  Applicaion _Cotexet.dll": {}
+        }
       }
     }
   },
@@ -589,11 +602,17 @@
       "type": "project",
       "path": "../0_Frimwork/0_Frimwork.csproj",
       "msbuildProject": "../0_Frimwork/0_Frimwork.csproj"
+    },
+    "Shop M  Applicaion _Cotexet/1.0.0": {
+      "type": "project",
+      "path": "../Shop M  Applicaion _Cotexet/Shop M  Applicaion _Cotexet.csproj",
+      "msbuildProject": "../Shop M  Applicaion _Cotexet/Shop M  Applicaion _Cotexet.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "0_Frimwork >= 1.0.0"
+      "0_Frimwork >= 1.0.0",
+      "Shop M  Applicaion _Cotexet >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -625,6 +644,9 @@
           "projectReferences": {
             "C:\\Git2\\SHOPing\\0_Frimwork\\0_Frimwork.csproj": {
               "projectPath": "C:\\Git2\\SHOPing\\0_Frimwork\\0_Frimwork.csproj"
+            },
+            "C:\\Git2\\SHOPing\\Shop M  Applicaion _Cotexet\\Shop M  Applicaion _Cotexet.csproj": {
+              "projectPath": "C:\\Git2\\SHOPing\\Shop M  Applicaion _Cotexet\\Shop M  Applicaion _Cotexet.csproj"
             }
           }
         }

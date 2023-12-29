@@ -244,13 +244,27 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
-          "0_Frimwork": "1.0.0"
+          "0_Frimwork": "1.0.0",
+          "Shop M  Applicaion _Cotexet": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Invantoriy.Application.Conterxt.dll": {}
         },
         "runtime": {
           "bin/placeholder/Invantoriy.Application.Conterxt.dll": {}
+        }
+      },
+      "Shop M  Applicaion _Cotexet/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "0_Frimwork": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Shop M  Applicaion _Cotexet.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Shop M  Applicaion _Cotexet.dll": {}
         }
       }
     }
@@ -626,6 +640,11 @@
       "type": "project",
       "path": "../Invantoriy.Application.Conterxt/Invantoriy.Application.Conterxt.csproj",
       "msbuildProject": "../Invantoriy.Application.Conterxt/Invantoriy.Application.Conterxt.csproj"
+    },
+    "Shop M  Applicaion _Cotexet/1.0.0": {
+      "type": "project",
+      "path": "../Shop M  Applicaion _Cotexet/Shop M  Applicaion _Cotexet.csproj",
+      "msbuildProject": "../Shop M  Applicaion _Cotexet/Shop M  Applicaion _Cotexet.csproj"
     }
   },
   "projectFileDependencyGroups": {
