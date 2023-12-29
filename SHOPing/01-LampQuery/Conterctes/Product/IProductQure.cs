@@ -9,5 +9,6 @@ namespace _01_LampQuery.Conterctes.Product
     public interface IProductQure 
     {
         List<ProductQureModel> GetLatesArrivals();
+        List<ProductQureModel> SearCh(string Value);
     }
 }
