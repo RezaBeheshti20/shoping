@@ -29,7 +29,6 @@ namespace Shop__M_infrasutacher.RepositoryBase
              Name = x.Name,
              MetaDescription = x.MetaDescription,
              Description = x.Description,
-             Picture = x.Picture,
              PictureAlt = x.PictureAlt,
              PictureTitle = x.PictureTitle,
              ShortDescription = x.ShortDescription,
@@ -47,6 +46,11 @@ namespace Shop__M_infrasutacher.RepositoryBase
               Id = x.Id,
               Name = x.Name,
           }).ToList();
+        }
+
+        public Product GetProductWihtCategory(long id)
+        {
+            return _context.Products.Include(x=>x.CategoreyId).FirstOrDefault(x=>x.Id == id);
         }
 
         public List<ProductViewModel> SearCh(ProductSearChModel searChModel)

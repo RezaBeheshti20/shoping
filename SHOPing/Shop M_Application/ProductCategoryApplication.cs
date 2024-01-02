@@ -12,11 +12,13 @@ namespace Shop_M_Application
 {
     public class IProductCategoryApplication : IProductCategoryApplicaton
     {
+        private readonly IFileUploader _fileUploader;
         private readonly IProuctCategoryReposetory _prouctCategoryReposetory;
 
-        public IProductCategoryApplication(IProuctCategoryReposetory prouctCategoryReposetory)
+        public IProductCategoryApplication(IProuctCategoryReposetory prouctCategoryReposetory, IFileUploader fileUploader)
         {
             _prouctCategoryReposetory = prouctCategoryReposetory;
+            _fileUploader = fileUploader;
         }
 
         public  OpratinResult Create(CreatProductCategory command)
@@ -25,7 +27,7 @@ namespace Shop_M_Application
             if (_prouctCategoryReposetory.Exists(x=>x.Name==command.Name))
                 return opration.Failed(ApplicationMessage.RecordNotFound);
 
-            var productCategory=new ProductCategory(command.Name,command.Picture,command.MetaDescription,command.Description
+            var productCategory=new ProductCategory(command.Name,"",command.MetaDescription,command.Description
                 ,command.PictureTitle,command.PictureAlt,command.Slug,command.Keywords);
 
             _prouctCategoryReposetory.Create(productCategory);
@@ -44,9 +46,11 @@ namespace Shop_M_Application
                 return opration.Failed(ApplicationMessage.RecordNotFound);
             if (_prouctCategoryReposetory.Exists(x => x.Name == command.Name && x.Id != command.Id)) 
             return opration.Failed("تکراری لطفا مجدد تلاش کنید");
-
-            productCategory.Edit(command.Name, command.Picture, command.MetaDescription, command.Description
-                , command.PictureTitle, command.PictureAlt, command.Slug, command.Keywords);
+            var slug = command.Slug;
+            var pictuerpath=$"{command.Slug}";
+            var fileName = _fileUploader.Uplosd(command.Picture);
+            productCategory.Edit(command.Name, "", command.MetaDescription, command.Description,fileName,     
+                 command.PictureTitle, command.PictureAlt , command.Keywords);
             _prouctCategoryReposetory.SaveChanges();
             return opration.Succedded();
 

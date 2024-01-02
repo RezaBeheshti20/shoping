@@ -40,6 +40,10 @@ namespace ServiesHost.Areas.AddMin.Page.Shop.ProductCategorys
         }
         public JsonResult OnPostEdit(EditProductCatgory command)
         {
+            if(ModelState.IsValid)
+            {
+
+            }
             var REZA=_productCategoryApplicaton.Edit(command);
             return new JsonResult(REZA);
         }

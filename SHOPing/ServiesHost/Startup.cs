@@ -1,3 +1,4 @@
+using _0_Frimwork.Application;
 using DisCunt.Configration;
 using invantoryi.i.infarastucher.Confegoration;
 using Microsoft.AspNetCore.Builder;
@@ -30,6 +31,8 @@ namespace ServiesHost
             Shop_M_Boosterapper.Configure(services,Connenctionstring);
             DiscuntBootstarpper.Configure(services,Connenctionstring);
             invantoriBottstraper.Configure(services,Connenctionstring);
+            services.AddTransient<IFileUploader ,FileUploader>();
+
             services.AddRazorPages();
         }
 

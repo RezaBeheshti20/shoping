@@ -1,4 +1,5 @@
 ﻿using _0_Frimwork.Application;
+using Microsoft.AspNetCore.Http;
 using Shop_M__Applicaion__Cotexet.ProductCategory;
 using System;
 using System.Collections.Generic;
@@ -18,7 +19,7 @@ namespace Shop_M__Applicaion__Cotexet.Product
         public string Code { get;   set; }
         [Required(ErrorMessage = ValidationMessege.IsRequired)]
         public double UnitPrice { get;   set; }
-        public string Picture { get;   set; }
+        public IFormFile Picture { get;   set; }
         public string PictureAlt { get;   set; }
         public string PictureTitle { get;   set; }
         public string PicturTitle { get;   set; }

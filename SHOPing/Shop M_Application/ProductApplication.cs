@@ -13,10 +13,12 @@ namespace Shop_M_Application
     public class ProductApplication : IProductApplication
     {
         private readonly IProductRepostori _productRepostori;
+        private readonly IFileUploader _fileUploader;
 
-        public ProductApplication(IProductRepostori productRepostori)
+        public ProductApplication(IProductRepostori productRepostori, IFileUploader fileUploader)
         {
-             _productRepostori = productRepostori;
+            _productRepostori = productRepostori;
+            _fileUploader = fileUploader;
         }
 
         public OpratinResult Creat(CreatProduct command)
@@ -24,7 +26,8 @@ namespace Shop_M_Application
             var operation = new OpratinResult();
             if (_productRepostori.Exists(x => x.Name == command.Name))
                 return operation.Failed(ApplicationMessage.DuplicatedRecord);
-            var product = new Product(command.Name, command.Description, command.Picture, command.PictureAlt, command.PictureTitle, command.Keywords, command.MetaDescription
+            var picturName = _fileUploader.Uplosd(command.Picture);
+            var product = new Product(command.Name, command.Description, picturName, command.PictureAlt, command.PictureTitle, command.Keywords, command.MetaDescription
                 , command.Slug, command.CategoreyId, command.UnitPrice, command.Code, command.ShortDescription);
             _productRepostori.Create(product);
              _productRepostori.SaveChanges();
@@ -40,7 +43,8 @@ namespace Shop_M_Application
                 return opration.Failed(ApplicationMessage.RecordNotFound);
             if (_productRepostori.Exists(x => x.Name == command.Name && x.Id != command.Id))
                 return opration.Failed(ApplicationMessage.DuplicatedRecord);
-            product.Edit(command.Name, command.Description, command.Picture, command.PictureAlt, command.PictureTitle, command.Keywords, command.MetaDescription
+            var picturName = _fileUploader.Uplosd(command.Picture);
+            product.Edit(command.Name, command.Description,picturName, command.PictureAlt, command.PictureTitle, command.Keywords, command.MetaDescription
                 , command.Slug, command.CategoreyId, command.UnitPrice, command.Code, command.ShortDescription);
             _productRepostori.SaveChanges();
             return opration.Succedded();

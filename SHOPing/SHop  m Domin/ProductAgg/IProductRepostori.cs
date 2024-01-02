@@ -10,6 +10,7 @@ namespace SHop__m_Domin.ProductAgg
 {
     public interface IProductRepostori:IRepository<long,Product>
     {
+        Product GetProductWihtCategory(long id);
         List<ProductViewModel> GetProducts();
         EditProduct GetDetails(long id);
         List<ProductViewModel> SearCh(ProductSearChModel searChModel);

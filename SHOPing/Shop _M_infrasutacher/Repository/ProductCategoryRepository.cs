@@ -25,7 +25,7 @@ namespace Shop__M_infrasutacher.RepositoryBase
             Name = x.Name,
             Description=x.Description,
             MetaDescription=x.MetaDescription,
-            Picture=x.Picture,
+            //Picture=x.Picture,
             PictureAlt=x.PictureAlt,
             PictureTitle=x.PictureTitle,
             Slug=x.Slug,

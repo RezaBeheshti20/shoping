@@ -218,3 +218,8 @@ C:\Git2\SHOPing\ServiesHost\bin\Debug\net5.0\Invantoriy.Application.dll
 C:\Git2\SHOPing\ServiesHost\bin\Debug\net5.0\Invantoriy.Application.pdb
 C:\Git2\SHOPing\ServiesHost\obj\Debug\net5.0\Razor\Pages\Shared\Components\ProductCategoriysWithProducts\Default.cshtml.g.cs
 C:\Git2\SHOPing\ServiesHost\obj\Debug\net5.0\Razor\Pages\ProductCategoriy.cshtml.g.cs
+C:\Git2\SHOPing\ServiesHost\bin\Debug\net5.0\Microsoft.AspNetCore.Http.Features.dll
+C:\Git2\SHOPing\ServiesHost\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+C:\Git2\SHOPing\ServiesHost\bin\Debug\net5.0\System.IO.Pipelines.dll
+C:\Git2\SHOPing\ServiesHost\obj\Debug\net5.0\ServiesHost.MvcApplicationPartsAssemblyInfo.cs
+C:\Git2\SHOPing\ServiesHost\obj\Debug\net5.0\Razor\Pages\Search.cshtml.g.cs

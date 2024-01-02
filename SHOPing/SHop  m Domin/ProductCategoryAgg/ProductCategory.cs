@@ -46,7 +46,10 @@ namespace SHop__m_Domin.ProductCategoryAgg
         {
             Name = name;
             Description = dscription;
-            Picture = picture;
+            
+            if(!string.IsNullOrWhiteSpace(picture)) 
+                Picture = picture;
+ 
             PictureAlt = pictureAlt;
             PictureTitle = picturTitle;
             Keywords = keywords;
