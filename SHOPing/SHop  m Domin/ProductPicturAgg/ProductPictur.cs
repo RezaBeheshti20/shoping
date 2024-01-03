@@ -37,6 +37,7 @@ namespace SHop__m_Domin.ProductPicturAgg
         public void Edit(long productId, string pictur, string picturalt, string picturtitel)
         {
             ProductId = productId;
+            if(!string.IsNullOrWhiteSpace(pictur)) 
             Pictur = pictur;
             PicturAlt = picturalt;
             PicturTitel = picturtitel;

@@ -33,6 +33,7 @@ namespace SHop__m_Domin.SlidAgg
         }
         public void Edit(string pictur, string picturAlt, string link, string picturTitel, string heding, string titel, string text, string btnText)
         {
+            if(!string.IsNullOrWhiteSpace(pictur))
             Pictur = pictur;
             PicturAlt = picturAlt;
             PicturTitel = picturTitel;

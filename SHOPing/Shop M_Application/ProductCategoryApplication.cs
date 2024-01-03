@@ -26,8 +26,8 @@ namespace Shop_M_Application
            var opration=new OpratinResult();
             if (_prouctCategoryReposetory.Exists(x=>x.Name==command.Name))
                 return opration.Failed(ApplicationMessage.RecordNotFound);
-
-            var productCategory=new ProductCategory(command.Name,"",command.MetaDescription,command.Description
+            var fileName = _fileUploader.Uplosd(command.Picture);
+            var productCategory=new ProductCategory(command.Name,fileName,command.MetaDescription,command.Description
                 ,command.PictureTitle,command.PictureAlt,command.Slug,command.Keywords);
 
             _prouctCategoryReposetory.Create(productCategory);

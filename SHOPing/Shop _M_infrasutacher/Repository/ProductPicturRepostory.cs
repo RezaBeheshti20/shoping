@@ -24,7 +24,7 @@ namespace Shop__M_infrasutacher.RepositoryBase
         {
              return _Context.ProductPicturs.Select(p => new EditProductPictur
              {
-                Pictur=p.Pictur,
+              
                 PicturAlt=p.PicturAlt,
                 PicturTitel=p.PicturTitel,
                 ProductId=p.ProductId
@@ -33,7 +33,10 @@ namespace Shop__M_infrasutacher.RepositoryBase
              }).FirstOrDefault(x=>x.Id==id);
         }
 
-       
+        public ProductPictur GetProductAndCategoriy(long id)
+        {
+             return _Context.ProductPicturs.Include(x=>x.Product).ThenInclude(x=>x.Category).FirstOrDefault(x=>x.Id==id);
+        }
 
         public List<ProductPicturViewModel> SearCh(ProductPicturSearChModel searChModel)
         {

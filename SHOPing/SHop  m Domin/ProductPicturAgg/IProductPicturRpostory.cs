@@ -13,6 +13,7 @@ namespace SHop__m_Domin.ProductPicturAgg
     {
         
         EditProductPictur GetDetails(long id);
+        ProductPictur GetProductAndCategoriy(long id);
         List<ProductPicturViewModel> SearCh(ProductPicturSearChModel searChModel);
 
     }

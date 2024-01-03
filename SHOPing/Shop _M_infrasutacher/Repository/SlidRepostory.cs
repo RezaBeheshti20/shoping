@@ -27,7 +27,7 @@ namespace Shop__M_infrasutacher.Repository
            return _context.Slids.Select(s => new EditSlid
            {
                Id =s.Id,
-               Pictur=s.Pictur,
+               
                PicturAlt=s.PicturAlt,
                PicturTitel=s.PicturTitel,
                BtnText=s.BtnText,

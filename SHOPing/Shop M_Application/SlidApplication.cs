@@ -12,17 +12,20 @@ namespace Shop_M_Application
 {
     public class SlidApplication : ISlidApplication
     {
+        private readonly IFileUploader _fileUploader;
         private readonly ISlidRepostory _slidRepostory;
 
-        public SlidApplication(ISlidRepostory slidRepostory)
+        public SlidApplication(ISlidRepostory slidRepostory, IFileUploader fileUploader)
         {
             _slidRepostory = slidRepostory;
+            _fileUploader = fileUploader;
         }
 
         public OpratinResult Creat(CreatSlid command)
         {
           var Option = new OpratinResult();
-            var slid = new Slid(command.Pictur, command.PicturAlt,command.Link ,command.PicturTitel
+            var fileName = _fileUploader.Uplosd(command.Pictur,"Slids");
+            var slid = new Slid(fileName, command.PicturAlt,command.Link ,command.PicturTitel
                 , command.Heding, command.Text, command.BtnText,command.Titel);
 
             _slidRepostory.Create(slid);
@@ -37,7 +40,8 @@ namespace Shop_M_Application
             var slid = _slidRepostory.Get(command.Id);
             if (slid == null)
                 return option.Failed(ApplicationMessage.RecordNotFound);
-            slid.Edit(command.Pictur,command.Text,command.Titel,command.PicturTitel, command.Link, command.PicturAlt,command.BtnText);
+            var fileName = _fileUploader.Uplosd(command.Pictur,"Slids");
+            slid.Edit(fileName,command.Text,command.Titel,command.PicturTitel, command.Link, command.PicturAlt,command.BtnText);
             _slidRepostory.SaveChanges();
             return option.Succedded();  
 
