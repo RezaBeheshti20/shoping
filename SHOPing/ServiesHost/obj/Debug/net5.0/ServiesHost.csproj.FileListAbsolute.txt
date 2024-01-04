@@ -223,3 +223,5 @@ C:\Git2\SHOPing\ServiesHost\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
 C:\Git2\SHOPing\ServiesHost\bin\Debug\net5.0\System.IO.Pipelines.dll
 C:\Git2\SHOPing\ServiesHost\obj\Debug\net5.0\ServiesHost.MvcApplicationPartsAssemblyInfo.cs
 C:\Git2\SHOPing\ServiesHost\obj\Debug\net5.0\Razor\Pages\Search.cshtml.g.cs
+C:\Git2\SHOPing\ServiesHost\obj\Debug\net5.0\Razor\Areas\AddMin\Page\Shop\CommantS\Index.cshtml.g.cs
+C:\Git2\SHOPing\ServiesHost\obj\Debug\net5.0\Razor\Pages\Product.cshtml.g.cs
