@@ -22,7 +22,7 @@ namespace Shop__M_infrasutacher.Repository
 
         public List<CommentViewModel> Search(CommentSearchModel searchModel)
         {
-            var Qury = _shopContext.Commants.Include(x=>x.Product).Select(c => new CommentViewModel
+            var Qury = _shopContext.Commants.Include(x=>x.Products).Select(c => new CommentViewModel
             {
                Id = c.Id,
                 Name = c.Name,
@@ -30,7 +30,7 @@ namespace Shop__M_infrasutacher.Repository
                 ProductId = c.ProductId,
                 IsCancel = c.IsCancel,
                 IsConfirmad= c.IsConfirmad,
-                ProductName=c.Product.Name,
+                ProductName=c.Products.Name,
                 CommantDate=c.CreationData.ToFarsi()
             });
             if (string.IsNullOrWhiteSpace(searchModel.Name)) 

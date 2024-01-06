@@ -4,10 +4,12 @@ C:\Git2\SHOPing\invantoryi.i.infarastucher.Confegoration\bin\Debug\net5.0\invant
 C:\Git2\SHOPing\invantoryi.i.infarastucher.Confegoration\bin\Debug\net5.0\0_Frimwork.dll
 C:\Git2\SHOPing\invantoryi.i.infarastucher.Confegoration\bin\Debug\net5.0\Domin_invantorii.dll
 C:\Git2\SHOPing\invantoryi.i.infarastucher.Confegoration\bin\Debug\net5.0\Invantoriy.Application.Conterxt.dll
+C:\Git2\SHOPing\invantoryi.i.infarastucher.Confegoration\bin\Debug\net5.0\Invantoriy.Application.dll
 C:\Git2\SHOPing\invantoryi.i.infarastucher.Confegoration\bin\Debug\net5.0\M_invantori.Infarastucher.EFcor.dll
 C:\Git2\SHOPing\invantoryi.i.infarastucher.Confegoration\bin\Debug\net5.0\SHop  m Domin.dll
 C:\Git2\SHOPing\invantoryi.i.infarastucher.Confegoration\bin\Debug\net5.0\Shop M  Applicaion _Cotexet.dll
 C:\Git2\SHOPing\invantoryi.i.infarastucher.Confegoration\bin\Debug\net5.0\Shop _M_infrasutacherEFCore.dll
+C:\Git2\SHOPing\invantoryi.i.infarastucher.Confegoration\bin\Debug\net5.0\Invantoriy.Application.pdb
 C:\Git2\SHOPing\invantoryi.i.infarastucher.Confegoration\bin\Debug\net5.0\Domin_invantorii.pdb
 C:\Git2\SHOPing\invantoryi.i.infarastucher.Confegoration\bin\Debug\net5.0\M_invantori.Infarastucher.EFcor.pdb
 C:\Git2\SHOPing\invantoryi.i.infarastucher.Confegoration\bin\Debug\net5.0\0_Frimwork.pdb
@@ -25,5 +27,3 @@ C:\Git2\SHOPing\invantoryi.i.infarastucher.Confegoration\obj\Debug\net5.0\invant
 C:\Git2\SHOPing\invantoryi.i.infarastucher.Confegoration\obj\Debug\net5.0\refint\invantoryi.i.infarastucher.Confegoration.dll
 C:\Git2\SHOPing\invantoryi.i.infarastucher.Confegoration\obj\Debug\net5.0\invantoryi.i.infarastucher.Confegoration.pdb
 C:\Git2\SHOPing\invantoryi.i.infarastucher.Confegoration\obj\Debug\net5.0\ref\invantoryi.i.infarastucher.Confegoration.dll
-C:\Git2\SHOPing\invantoryi.i.infarastucher.Confegoration\bin\Debug\net5.0\Invantoriy.Application.dll
-C:\Git2\SHOPing\invantoryi.i.infarastucher.Confegoration\bin\Debug\net5.0\Invantoriy.Application.pdb

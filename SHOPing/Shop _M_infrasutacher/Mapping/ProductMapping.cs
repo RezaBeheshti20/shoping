@@ -31,7 +31,7 @@ namespace Shop__M_infrasutacher.Mapping
             builder.HasOne(x => x.Category).WithMany(x => x.products).HasForeignKey(x => x.CategoreyId);
 
             builder.HasMany(x => x.ProductPicturs).WithOne(x => x.Product).HasForeignKey(x => x.ProductId);
-            builder.HasMany(x => x.Commants).WithOne(x => x.Product).HasForeignKey(x => x.ProductId);
+            builder.HasMany(x => x.Commants).WithOne(x => x.Products).HasForeignKey(x => x.ProductId);
         }
     }
 }

@@ -20,7 +20,7 @@ namespace Shop__M_infrasutacher.Mapping
             builder.Property(c => c.Name).HasMaxLength(128);
             builder.Property(c=>c.Email).HasMaxLength(128);
             builder.Property(c=>c.Mesasseg).HasMaxLength(128);
-            builder.HasOne(x=>x.Product).WithMany(x=>x.Commants).HasForeignKey(x=>x.ProductId);
+            builder.HasOne(x=>x.Products).WithMany(x=>x.Commants).HasForeignKey(x=>x.ProductId);
         }
     }
 }

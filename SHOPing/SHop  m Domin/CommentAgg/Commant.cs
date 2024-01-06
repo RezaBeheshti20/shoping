@@ -16,16 +16,16 @@ namespace SHop__m_Domin.CommentAgg
         public bool IsConfirmad { get;private set; }
         public bool IsCancel { get;private set; }
         public long ProductId { get;private set; }
-        public Product Product { get;private set; }
-        public Commant(string name,string email,string message,long productId)
+        public Product Products { get;private set; }
+        public Commant(string name,string email,string mesasseg,long productId)
         {
             Name = name;
             Email = email;
-            Mesasseg = message;
+            Mesasseg = mesasseg;
             ProductId = productId;
         }
         public void Confirmad()
-        {
+        { 
             IsConfirmad = true;
         }
         public void Cancelad()

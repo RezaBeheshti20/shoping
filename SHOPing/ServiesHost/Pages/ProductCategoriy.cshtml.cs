@@ -2,6 +2,7 @@ using _01_LampQuery.Conterctes.ProductCategoryQure;
  
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using SHop__m_Domin.ProductCategoryAgg;
 
 namespace ServiesHost.Pages
 {
@@ -17,7 +18,7 @@ namespace ServiesHost.Pages
 
         public void OnGet(string id)
         {
-          
+            var productCategory= _productCategoryQure.GetProductCategoriyWithBayProducts(id);
         }
     }
 }

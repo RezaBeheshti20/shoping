@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>Blog_Application</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Blog-Application-Cotercts\Blog-Application-Cotercts.csproj" />
+    <ProjectReference Include="..\Domin-Blog-M\Domin-Blog-M.csproj" />
+  </ItemGroup>
+
+</Project>

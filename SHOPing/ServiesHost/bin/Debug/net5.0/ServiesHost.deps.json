@@ -36,6 +36,7 @@
           "DisCunt.Configration": "1.0.0",
           "Microsoft.EntityFrameworkCore.Design": "5.0.1",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "5.0.2",
+          "blog-infarastucher-ConFiger": "1.0.0",
           "invantoryi.i.infarastucher.Confegoration": "1.0.0",
           "Microsoft.AspNetCore.Antiforgery": "5.0.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "5.0.0.0",
@@ -1870,6 +1871,57 @@
           "0_Frimwork.dll": {}
         }
       },
+      "Blog-Application/1.0.0": {
+        "dependencies": {
+          "Blog-Application-Cotercts": "1.0.0",
+          "Domin-Blog-M": "1.0.0"
+        },
+        "runtime": {
+          "Blog-Application.dll": {}
+        },
+        "compile": {
+          "Blog-Application.dll": {}
+        }
+      },
+      "Blog-Application-Cotercts/1.0.0": {
+        "dependencies": {
+          "0_Frimwork": "1.0.0",
+          "Microsoft.AspNetCore.Http.Features": "5.0.17"
+        },
+        "runtime": {
+          "Blog-Application-Cotercts.dll": {}
+        },
+        "compile": {
+          "Blog-Application-Cotercts.dll": {}
+        }
+      },
+      "blog-infarastucher-ConFiger/1.0.0": {
+        "dependencies": {
+          "Blog-Application": "1.0.0",
+          "Blog-Application-Cotercts": "1.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "5.0.0",
+          "blog-infarastucher-EFCore": "1.0.0"
+        },
+        "runtime": {
+          "blog-infarastucher-ConFiger.dll": {}
+        },
+        "compile": {
+          "blog-infarastucher-ConFiger.dll": {}
+        }
+      },
+      "blog-infarastucher-EFCore/1.0.0": {
+        "dependencies": {
+          "Domin-Blog-M": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "5.0.1",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.1"
+        },
+        "runtime": {
+          "blog-infarastucher-EFCore.dll": {}
+        },
+        "compile": {
+          "blog-infarastucher-EFCore.dll": {}
+        }
+      },
       "DicuntM_Domin/1.0.0": {
         "dependencies": {
           "0_Frimwork": "1.0.0",
@@ -1933,6 +1985,18 @@
         },
         "compile": {
           "DisCuntApplicaton.dll": {}
+        }
+      },
+      "Domin-Blog-M/1.0.0": {
+        "dependencies": {
+          "0_Frimwork": "1.0.0",
+          "Blog-Application-Cotercts": "1.0.0"
+        },
+        "runtime": {
+          "Domin-Blog-M.dll": {}
+        },
+        "compile": {
+          "Domin-Blog-M.dll": {}
         }
       },
       "Domin_invantorii/1.0.0": {
@@ -4666,6 +4730,26 @@
       "serviceable": false,
       "sha512": ""
     },
+    "Blog-Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Blog-Application-Cotercts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "blog-infarastucher-ConFiger/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "blog-infarastucher-EFCore/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "DicuntM_Domin/1.0.0": {
       "type": "project",
       "serviceable": false,
@@ -4687,6 +4771,11 @@
       "sha512": ""
     },
     "DisCuntApplicaton/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Domin-Blog-M/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

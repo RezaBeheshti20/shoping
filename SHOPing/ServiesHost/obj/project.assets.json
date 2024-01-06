@@ -2445,6 +2445,65 @@
           "bin/placeholder/0_Frimwork.dll": {}
         }
       },
+      "Blog-Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Blog-Application-Cotercts": "1.0.0",
+          "Domin-Blog-M": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Blog-Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Blog-Application.dll": {}
+        }
+      },
+      "Blog-Application-Cotercts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "0_Frimwork": "1.0.0",
+          "Microsoft.AspNetCore.Http.Features": "5.0.17"
+        },
+        "compile": {
+          "bin/placeholder/Blog-Application-Cotercts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Blog-Application-Cotercts.dll": {}
+        }
+      },
+      "blog-infarastucher-ConFiger/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Blog-Application": "1.0.0",
+          "Blog-Application-Cotercts": "1.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "5.0.0",
+          "blog-infarastucher-EFCore": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/blog-infarastucher-ConFiger.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/blog-infarastucher-ConFiger.dll": {}
+        }
+      },
+      "blog-infarastucher-EFCore/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Domin-Blog-M": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "5.0.1",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.1"
+        },
+        "compile": {
+          "bin/placeholder/blog-infarastucher-EFCore.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/blog-infarastucher-EFCore.dll": {}
+        }
+      },
       "DicuntM_Domin/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -2518,6 +2577,20 @@
         },
         "runtime": {
           "bin/placeholder/DisCuntApplicaton.dll": {}
+        }
+      },
+      "Domin-Blog-M/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "0_Frimwork": "1.0.0",
+          "Blog-Application-Cotercts": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Domin-Blog-M.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Domin-Blog-M.dll": {}
         }
       },
       "Domin_invantorii/1.0.0": {
@@ -7909,6 +7982,26 @@
       "path": "../0_Frimwork/0_Frimwork.csproj",
       "msbuildProject": "../0_Frimwork/0_Frimwork.csproj"
     },
+    "Blog-Application/1.0.0": {
+      "type": "project",
+      "path": "../Blog-Application/Blog-Application.csproj",
+      "msbuildProject": "../Blog-Application/Blog-Application.csproj"
+    },
+    "Blog-Application-Cotercts/1.0.0": {
+      "type": "project",
+      "path": "../Blog-Application-Cotercts/Blog-Application-Cotercts.csproj",
+      "msbuildProject": "../Blog-Application-Cotercts/Blog-Application-Cotercts.csproj"
+    },
+    "blog-infarastucher-ConFiger/1.0.0": {
+      "type": "project",
+      "path": "../blog-infarastucher-ConFiger/blog-infarastucher-ConFiger.csproj",
+      "msbuildProject": "../blog-infarastucher-ConFiger/blog-infarastucher-ConFiger.csproj"
+    },
+    "blog-infarastucher-EFCore/1.0.0": {
+      "type": "project",
+      "path": "../blog-infarastucher-EFCore/blog-infarastucher-EFCore.csproj",
+      "msbuildProject": "../blog-infarastucher-EFCore/blog-infarastucher-EFCore.csproj"
+    },
     "DicuntM_Domin/1.0.0": {
       "type": "project",
       "path": "../DicuntM_Domin/DicuntM_Domin.csproj",
@@ -7933,6 +8026,11 @@
       "type": "project",
       "path": "../DisCuntApplicaton/DisCuntApplicaton.csproj",
       "msbuildProject": "../DisCuntApplicaton/DisCuntApplicaton.csproj"
+    },
+    "Domin-Blog-M/1.0.0": {
+      "type": "project",
+      "path": "../Domin-Blog-M/Domin-Blog-M.csproj",
+      "msbuildProject": "../Domin-Blog-M/Domin-Blog-M.csproj"
     },
     "Domin_invantorii/1.0.0": {
       "type": "project",
@@ -7991,6 +8089,7 @@
       "Microsoft.EntityFrameworkCore.Design >= 5.0.1",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 5.0.2",
       "Shop_ M_ConFigoriton >= 1.0.0",
+      "blog-infarastucher-ConFiger >= 1.0.0",
       "invantoryi.i.infarastucher.Confegoration >= 1.0.0"
     ]
   },
@@ -8021,6 +8120,9 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
+            "C:\\Git2\\SHOPing\\blog-infarastucher-ConFiger\\blog-infarastucher-ConFiger.csproj": {
+              "projectPath": "C:\\Git2\\SHOPing\\blog-infarastucher-ConFiger\\blog-infarastucher-ConFiger.csproj"
+            },
             "C:\\Git2\\SHOPing\\DisCunt.Configration\\DisCunt.Configration.csproj": {
               "projectPath": "C:\\Git2\\SHOPing\\DisCunt.Configration\\DisCunt.Configration.csproj"
             },

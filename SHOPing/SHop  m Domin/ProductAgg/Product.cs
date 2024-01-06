@@ -29,22 +29,22 @@ namespace SHop__m_Domin.ProductAgg
         public string Slug { get; private set; }
         public List<ProductPictur>ProductPicturs { get; private set; }
          public List<Commant> Commants { get; private set; } 
-        public Product(string name, string dscription, string picture, string pictureAlt
+        public Product(string name, string description, string picture, string pictureAlt
             , string picturTitle, string keywords, string metaDescription, string slug
-            ,long categoryId, double unitPrice,string code,string shortDiscription)
+            ,long categoreyId, double unitPrice,string code,string shortDescription)
         {
             Name = name;
-            Description = dscription;
+            Description =  description;
             Picture = picture;
             PictureAlt = pictureAlt;
             PictureTitle = picturTitle;
             Keywords = keywords;
             MetaDescription = metaDescription;
             Slug = slug;
-            ShortDescription = shortDiscription;
+            ShortDescription =  shortDescription;
             Code = code;
             UnitPrice = unitPrice;
-            CategoreyId = categoryId;
+            CategoreyId =  categoreyId;
             
         }
         public void Edit(string name, string dscription, string picture, string pictureAlt

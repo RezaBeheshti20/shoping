@@ -1,4 +1,5 @@
 using _0_Frimwork.Application;
+using blog_infarastucher_ConFiger;
 using DisCunt.Configration;
 using invantoryi.i.infarastucher.Confegoration;
 using Microsoft.AspNetCore.Builder;
@@ -31,6 +32,8 @@ namespace ServiesHost
             Shop_M_Boosterapper.Configure(services,Connenctionstring);
             DiscuntBootstarpper.Configure(services,Connenctionstring);
             invantoriBottstraper.Configure(services,Connenctionstring);
+            BootAstraper.Configure(services,Connenctionstring);
+
             services.AddTransient<IFileUploader ,FileUploader>();
 
             services.AddRazorPages();
