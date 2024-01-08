@@ -1,4 +1,4 @@
-﻿@*@model List<_01_LampshadeQuery.Contracts.Article.ArticleQueryModel>*@
+﻿@model List<_01_LampQuery.Conterctes.Artical.ArticalQuryModel>
 
 <div class="blog-post-slider-area">
     <div class="container">
@@ -40,16 +40,16 @@
                                                 <div class="single-slider-post__image">
                                                     <a asp-page="/Article" asp-route-id="@article.Slug">
                                                         <img src="~/ProductPictures/@article.Picture"
-                                                             class="img-fluid" alt="@article.PictureAlt" title="@article.PictureTitle">
+                                                             class="img-fluid" alt="@article.PictureAlt" title="@article.PictureTiTle">
                                                     </a>
                                                     <div class="single-slider-post__date-sticker">
-                                                        <span class="month">@article.PublishDate</span>
+                                                        <span class="month">@article.PublisDate</span>
                                                     </div>
                                                 </div>
                                                 <div class="single-slider-post__content">
                                                     <h3 class="title">
                                                         <a asp-page="/Article" asp-route-id="@article.Slug">
-                                                            @article.Title
+                                                            @article.Titel
                                                         </a>
                                                     </h3>
                                                     @*<p class="post-meta">by <a href="#">HasTech</a></p>*@

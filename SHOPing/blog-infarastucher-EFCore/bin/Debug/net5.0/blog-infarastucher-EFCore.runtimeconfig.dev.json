@@ -1,8 +1,0 @@
-{
-  "runtimeOptions": {
-    "additionalProbingPaths": [
-      "C:\\Users\\PSP\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\PSP\\.nuget\\packages"
-    ]
-  }
-}

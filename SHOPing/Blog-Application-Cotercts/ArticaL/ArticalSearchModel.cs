@@ -11,6 +11,6 @@ namespace Blog_Application_Cotercts.ArticaL
     {
         public string TiTle { get; set; }
         public long CategoryId { get; set; }
-        public List<ArticalCategoriyViewModel> Categories { get; set; }
+        
     }
 }

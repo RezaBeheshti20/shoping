@@ -67,19 +67,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Blog_M", "Blog_M", "{5ABE49
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "M-Domin", "M-Domin", "{DFFE232D-4387-4951-8914-41B6A91F3088}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domin-Blog-M", "Domin-Blog-M\Domin-Blog-M.csproj", "{291BE3EA-3D34-4339-88AC-82D5D4EC92B2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domin-Blog-M", "Domin-Blog-M\Domin-Blog-M.csproj", "{291BE3EA-3D34-4339-88AC-82D5D4EC92B2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "M-Application", "M-Application", "{421E7F57-84F4-493B-9F25-A55026C54201}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blog-Application-Cotercts", "Blog-Application-Cotercts\Blog-Application-Cotercts.csproj", "{91D825BE-76F7-4B91-A73E-F9FFAF5C7CCE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blog-Application-Cotercts", "Blog-Application-Cotercts\Blog-Application-Cotercts.csproj", "{91D825BE-76F7-4B91-A73E-F9FFAF5C7CCE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blog-Application", "Blog-Application\Blog-Application.csproj", "{948C6ABA-C841-4A25-B32D-62928BF966A9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blog-Application", "Blog-Application\Blog-Application.csproj", "{948C6ABA-C841-4A25-B32D-62928BF966A9}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "M-infarastuche", "M-infarastuche", "{F253C0E6-F9EB-43A1-8FFF-AA3DC2B97959}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "blog-infarastucher-EFCore", "blog-infarastucher-EFCore\blog-infarastucher-EFCore.csproj", "{32E3F42B-4691-4D72-BD2F-C3CF75294122}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "blog-infarastucher-EFCore", "blog-infarastucher-EFCore\blog-infarastucher-EFCore.csproj", "{32E3F42B-4691-4D72-BD2F-C3CF75294122}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "blog-infarastucher-ConFiger", "blog-infarastucher-ConFiger\blog-infarastucher-ConFiger.csproj", "{B041753B-4A4E-4A87-8C50-760D36E01362}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "blog-infarastucher-ConFiger", "blog-infarastucher-ConFiger\blog-infarastucher-ConFiger.csproj", "{B041753B-4A4E-4A87-8C50-760D36E01362}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -192,6 +192,7 @@ Global
 		{759BFB16-4B60-4091-92B3-0FFCE65E40F0} = {68B4BFAF-062F-44BC-9BB4-9726CC839900}
 		{B57E204A-BD3B-46B9-B9A1-B6A13D8CF7D3} = {759BFB16-4B60-4091-92B3-0FFCE65E40F0}
 		{D35500DB-BF51-41CF-B23E-D566E174F665} = {759BFB16-4B60-4091-92B3-0FFCE65E40F0}
+		{D3A71552-5FFD-445B-B261-0B0937E757ED} = {F253C0E6-F9EB-43A1-8FFF-AA3DC2B97959}
 		{B2CF2E64-8A5D-4DAB-A7C4-334A4713EE84} = {D3A71552-5FFD-445B-B261-0B0937E757ED}
 		{90F04562-5251-4716-AF99-93E9918EB89B} = {B2CF2E64-8A5D-4DAB-A7C4-334A4713EE84}
 		{BAEA5021-567B-4092-A4B6-4CF3EB2EAED9} = {D3A71552-5FFD-445B-B261-0B0937E757ED}

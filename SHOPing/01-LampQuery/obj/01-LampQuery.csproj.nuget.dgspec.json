@@ -28,6 +28,9 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
+              "C:\\Git2\\SHOPing\\blog-infarastucher-EFCore\\blog-infarastucher-EFCore.csproj": {
+                "projectPath": "C:\\Git2\\SHOPing\\blog-infarastucher-EFCore\\blog-infarastucher-EFCore.csproj"
+              },
               "C:\\Git2\\SHOPing\\Discontinfarstuacher\\Discontinfarstuacher.csproj": {
                 "projectPath": "C:\\Git2\\SHOPing\\Discontinfarstuacher\\Discontinfarstuacher.csproj"
               },
@@ -114,6 +117,146 @@
               "version": "[2.2.0, )"
             },
             "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Git2\\SHOPing\\Blog-Application-Cotercts\\Blog-Application-Cotercts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Git2\\SHOPing\\Blog-Application-Cotercts\\Blog-Application-Cotercts.csproj",
+        "projectName": "Blog-Application-Cotercts",
+        "projectPath": "C:\\Git2\\SHOPing\\Blog-Application-Cotercts\\Blog-Application-Cotercts.csproj",
+        "packagesPath": "C:\\Users\\PSP\\.nuget\\packages\\",
+        "outputPath": "C:\\Git2\\SHOPing\\Blog-Application-Cotercts\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\PSP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Git2\\SHOPing\\0_Frimwork\\0_Frimwork.csproj": {
+                "projectPath": "C:\\Git2\\SHOPing\\0_Frimwork\\0_Frimwork.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Git2\\SHOPing\\blog-infarastucher-EFCore\\blog-infarastucher-EFCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Git2\\SHOPing\\blog-infarastucher-EFCore\\blog-infarastucher-EFCore.csproj",
+        "projectName": "blog-infarastucher-EFCore",
+        "projectPath": "C:\\Git2\\SHOPing\\blog-infarastucher-EFCore\\blog-infarastucher-EFCore.csproj",
+        "packagesPath": "C:\\Users\\PSP\\.nuget\\packages\\",
+        "outputPath": "C:\\Git2\\SHOPing\\blog-infarastucher-EFCore\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\PSP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Git2\\SHOPing\\Domin-Blog-M\\Domin-Blog-M.csproj": {
+                "projectPath": "C:\\Git2\\SHOPing\\Domin-Blog-M\\Domin-Blog-M.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[5.0.1, )"
             }
@@ -307,6 +450,68 @@
               },
               "C:\\Git2\\SHOPing\\Shop M  Applicaion _Cotexet\\Shop M  Applicaion _Cotexet.csproj": {
                 "projectPath": "C:\\Git2\\SHOPing\\Shop M  Applicaion _Cotexet\\Shop M  Applicaion _Cotexet.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Git2\\SHOPing\\Domin-Blog-M\\Domin-Blog-M.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Git2\\SHOPing\\Domin-Blog-M\\Domin-Blog-M.csproj",
+        "projectName": "Domin-Blog-M",
+        "projectPath": "C:\\Git2\\SHOPing\\Domin-Blog-M\\Domin-Blog-M.csproj",
+        "packagesPath": "C:\\Users\\PSP\\.nuget\\packages\\",
+        "outputPath": "C:\\Git2\\SHOPing\\Domin-Blog-M\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\PSP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Git2\\SHOPing\\0_Frimwork\\0_Frimwork.csproj": {
+                "projectPath": "C:\\Git2\\SHOPing\\0_Frimwork\\0_Frimwork.csproj"
+              },
+              "C:\\Git2\\SHOPing\\Blog-Application-Cotercts\\Blog-Application-Cotercts.csproj": {
+                "projectPath": "C:\\Git2\\SHOPing\\Blog-Application-Cotercts\\Blog-Application-Cotercts.csproj"
               }
             }
           }

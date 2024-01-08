@@ -1,5 +1,6 @@
 ﻿using _0_Frimwork.Domin;
 using Blog_Application_Cotercts.ArticaL;
+using Blog_Application_Cotercts.ArticalCategorii;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,6 +14,7 @@ namespace Domin_Blog_M.ArticalAgg
        
         EditArtical GetDeitails(long id);
         Artical GetWithCategory(long  id);
+        List<ArticalCategoriyViewModel> GetCategories();
         List<ArticalViewModel> Search(ArticalSearchModel searchModel);
     }
 }

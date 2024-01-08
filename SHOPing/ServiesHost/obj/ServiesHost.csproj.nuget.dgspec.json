@@ -28,6 +28,9 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
+              "C:\\Git2\\SHOPing\\blog-infarastucher-EFCore\\blog-infarastucher-EFCore.csproj": {
+                "projectPath": "C:\\Git2\\SHOPing\\blog-infarastucher-EFCore\\blog-infarastucher-EFCore.csproj"
+              },
               "C:\\Git2\\SHOPing\\Discontinfarstuacher\\Discontinfarstuacher.csproj": {
                 "projectPath": "C:\\Git2\\SHOPing\\Discontinfarstuacher\\Discontinfarstuacher.csproj"
               },

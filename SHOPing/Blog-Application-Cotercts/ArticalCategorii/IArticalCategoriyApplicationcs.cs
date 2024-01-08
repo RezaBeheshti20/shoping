@@ -12,6 +12,7 @@ namespace Blog_Application_Cotercts.ArticalCategorii
         OpratinResult Creat(CreatArticalCategoriy command) ;
         OpratinResult Edit(EditArticalCategoriy command);
         EditArticalCategoriy GetDitails(long id);
+        List<ArticalCategoriyViewModel> GetArticalCategoriys();
         List<ArticalCategoriyViewModel>Search(ArticalCategoriySearchModel searchModel) ;
     } 
 }

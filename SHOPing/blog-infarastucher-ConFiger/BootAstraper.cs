@@ -22,6 +22,8 @@ namespace blog_infarastucher_ConFiger
             service.AddTransient<IArticalApplication,  ArticalApplication>();
             service.AddTransient<IArticalRepostoriy, ArticalRepostoriy>();
 
+           
+
             service.AddDbContext<blogContext>(x=>x.UseSqlServer(connectionStiring));
         }
     }

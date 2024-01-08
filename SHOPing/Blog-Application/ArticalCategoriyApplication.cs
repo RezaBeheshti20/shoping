@@ -55,6 +55,11 @@ namespace Blog_Application
             return opration.Succedded();
         }
 
+        public List<ArticalCategoriyViewModel> GetArticalCategoriys()
+        {
+            return _articalCategoriyRepostori.GetArticalCategoriys();
+        }
+
         public EditArticalCategoriy GetDitails(long id)
         {
             return _articalCategoriyRepostori.GetDitails(id);

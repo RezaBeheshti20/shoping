@@ -1,6 +1,7 @@
 ﻿using _0_Frimwork.Application;
 using _0_Frimwork.Infrasutacher;
 using Blog_Application_Cotercts.ArticaL;
+using Blog_Application_Cotercts.ArticalCategorii;
 using Domin_Blog_M.ArticalAgg;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -18,6 +19,15 @@ namespace blog_infarastucher_EFCore.Repostoriy
         public ArticalRepostoriy(blogContext blogContext):base(blogContext) 
         {
             _blogContext = blogContext;
+        }
+
+        public List<ArticalCategoriyViewModel> GetCategories()
+        {
+           return _blogContext.articalCatagoriys.Select(x=>new ArticalCategoriyViewModel
+           {
+            Id=x.Id,
+            Name=x.Name
+           }).ToList();
         }
 
         public EditArtical GetDeitails(long id)

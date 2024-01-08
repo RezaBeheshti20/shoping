@@ -6,6 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\blog-infarastucher-EFCore\blog-infarastucher-EFCore.csproj" />
     <ProjectReference Include="..\Discontinfarstuacher\Discontinfarstuacher.csproj" />
     <ProjectReference Include="..\M_invantori.Infarastucher.EFcor\M_invantori.Infarastucher.EFcor.csproj" />
     <ProjectReference Include="..\Shop _M_infrasutacher\Shop _M_infrasutacherEFCore.csproj" />

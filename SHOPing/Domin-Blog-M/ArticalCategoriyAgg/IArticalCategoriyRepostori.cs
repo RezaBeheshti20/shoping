@@ -10,8 +10,9 @@ namespace Domin_Blog_M.ArticalCategoriyAgg
 {
     public interface IArticalCategoriyRepostori:IRepository<long,ArticalCatagoriy>
     {
+        List<ArticalCategoriyViewModel> GetArticalCategoriys();
         EditArticalCategoriy GetDitails(long id);
          string GetSlugBay(long id);
-    List<ArticalCategoriyViewModel> Search(ArticalCategoriySearchModel searchModel);
+      List<ArticalCategoriyViewModel> Search(ArticalCategoriySearchModel searchModel);
     }
 }
