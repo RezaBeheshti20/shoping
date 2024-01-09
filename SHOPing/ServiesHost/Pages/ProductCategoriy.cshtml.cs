@@ -8,7 +8,7 @@ namespace ServiesHost.Pages
 {
     public class ProductCategoriyModel : PageModel
     {
-        public ProductCategoriyModel productCategoriy;
+        public ProductCategoryQureModel pproductCategoriy;
         private readonly IProductCategoryQure _productCategoryQure;
 
         public ProductCategoriyModel(IProductCategoryQure  productCategoryQure )
@@ -18,7 +18,7 @@ namespace ServiesHost.Pages
 
         public void OnGet(string id)
         {
-            var productCategory= _productCategoryQure.GetProductCategoriyWithBayProducts(id);
+            pproductCategoriy = _productCategoryQure.GetProductCategoriyWithBayProducts(id);
         }
     }
 }

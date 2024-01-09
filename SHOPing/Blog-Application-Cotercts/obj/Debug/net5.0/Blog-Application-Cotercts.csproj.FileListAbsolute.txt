@@ -1,0 +1,15 @@
+C:\Git2\SHOPing\Blog-Application-Cotercts\bin\Debug\net5.0\Blog-Application-Cotercts.deps.json
+C:\Git2\SHOPing\Blog-Application-Cotercts\bin\Debug\net5.0\Blog-Application-Cotercts.dll
+C:\Git2\SHOPing\Blog-Application-Cotercts\bin\Debug\net5.0\Blog-Application-Cotercts.pdb
+C:\Git2\SHOPing\Blog-Application-Cotercts\bin\Debug\net5.0\0_Frimwork.dll
+C:\Git2\SHOPing\Blog-Application-Cotercts\bin\Debug\net5.0\0_Frimwork.pdb
+C:\Git2\SHOPing\Blog-Application-Cotercts\obj\Debug\net5.0\Blog-Application-Cotercts.csproj.AssemblyReference.cache
+C:\Git2\SHOPing\Blog-Application-Cotercts\obj\Debug\net5.0\Blog-Application-Cotercts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Git2\SHOPing\Blog-Application-Cotercts\obj\Debug\net5.0\Blog-Application-Cotercts.AssemblyInfoInputs.cache
+C:\Git2\SHOPing\Blog-Application-Cotercts\obj\Debug\net5.0\Blog-Application-Cotercts.AssemblyInfo.cs
+C:\Git2\SHOPing\Blog-Application-Cotercts\obj\Debug\net5.0\Blog-Application-Cotercts.csproj.CoreCompileInputs.cache
+C:\Git2\SHOPing\Blog-Application-Cotercts\obj\Debug\net5.0\Blog-Application-Cotercts.csproj.CopyComplete
+C:\Git2\SHOPing\Blog-Application-Cotercts\obj\Debug\net5.0\Blog-Application-Cotercts.dll
+C:\Git2\SHOPing\Blog-Application-Cotercts\obj\Debug\net5.0\refint\Blog-Application-Cotercts.dll
+C:\Git2\SHOPing\Blog-Application-Cotercts\obj\Debug\net5.0\Blog-Application-Cotercts.pdb
+C:\Git2\SHOPing\Blog-Application-Cotercts\obj\Debug\net5.0\ref\Blog-Application-Cotercts.dll

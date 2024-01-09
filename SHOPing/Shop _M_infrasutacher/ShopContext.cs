@@ -1,5 +1,4 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using SHop__m_Domin.CommentAgg;
 using SHop__m_Domin.ProductAgg;
 using SHop__m_Domin.ProductCategoryAgg;
 using SHop__m_Domin.ProductPicturAgg;
@@ -19,7 +18,6 @@ namespace Shop__M_infrasutacher
         public DbSet<Product> Products { get; set; }
         public DbSet<ProductPictur> ProductPicturs { get; set; }
         public DbSet<Slid>  Slids { get; set; }
-        public DbSet<Commant> Commants { get; set; }
         public ShopContext(DbContextOptions<ShopContext> options):base(options)
         {
 

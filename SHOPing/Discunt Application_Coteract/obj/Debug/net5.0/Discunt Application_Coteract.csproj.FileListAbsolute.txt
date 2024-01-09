@@ -1,0 +1,17 @@
+C:\Git2\SHOPing\Discunt Application_Coteract\bin\Debug\net5.0\Discunt Application_Coteract.deps.json
+C:\Git2\SHOPing\Discunt Application_Coteract\bin\Debug\net5.0\Discunt Application_Coteract.dll
+C:\Git2\SHOPing\Discunt Application_Coteract\bin\Debug\net5.0\Discunt Application_Coteract.pdb
+C:\Git2\SHOPing\Discunt Application_Coteract\bin\Debug\net5.0\0_Frimwork.dll
+C:\Git2\SHOPing\Discunt Application_Coteract\bin\Debug\net5.0\Shop M  Applicaion _Cotexet.dll
+C:\Git2\SHOPing\Discunt Application_Coteract\bin\Debug\net5.0\0_Frimwork.pdb
+C:\Git2\SHOPing\Discunt Application_Coteract\bin\Debug\net5.0\Shop M  Applicaion _Cotexet.pdb
+C:\Git2\SHOPing\Discunt Application_Coteract\obj\Debug\net5.0\Discunt Application_Coteract.csproj.AssemblyReference.cache
+C:\Git2\SHOPing\Discunt Application_Coteract\obj\Debug\net5.0\Discunt Application_Coteract.GeneratedMSBuildEditorConfig.editorconfig
+C:\Git2\SHOPing\Discunt Application_Coteract\obj\Debug\net5.0\Discunt Application_Coteract.AssemblyInfoInputs.cache
+C:\Git2\SHOPing\Discunt Application_Coteract\obj\Debug\net5.0\Discunt Application_Coteract.AssemblyInfo.cs
+C:\Git2\SHOPing\Discunt Application_Coteract\obj\Debug\net5.0\Discunt Application_Coteract.csproj.CoreCompileInputs.cache
+C:\Git2\SHOPing\Discunt Application_Coteract\obj\Debug\net5.0\Discunt Application_Coteract.csproj.CopyComplete
+C:\Git2\SHOPing\Discunt Application_Coteract\obj\Debug\net5.0\Discunt Application_Coteract.dll
+C:\Git2\SHOPing\Discunt Application_Coteract\obj\Debug\net5.0\refint\Discunt Application_Coteract.dll
+C:\Git2\SHOPing\Discunt Application_Coteract\obj\Debug\net5.0\Discunt Application_Coteract.pdb
+C:\Git2\SHOPing\Discunt Application_Coteract\obj\Debug\net5.0\ref\Discunt Application_Coteract.dll

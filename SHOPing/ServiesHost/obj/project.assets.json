@@ -2505,6 +2505,80 @@
           "bin/placeholder/blog-infarastucher-EFCore.dll": {}
         }
       },
+      "commant.Infarstucer.Confguration/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Commant_Application": "1.0.0",
+          "Commant_Application.Conterxt": "1.0.0",
+          "Commant_infarstucter_EFCore": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "5.0.1",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.1",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "5.0.0"
+        },
+        "compile": {
+          "bin/placeholder/commant.Infarstucer.Confguration.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/commant.Infarstucer.Confguration.dll": {}
+        }
+      },
+      "Commant_Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Commant_Application.Conterxt": "1.0.0",
+          "Commant_Domin": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Commant_Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Commant_Application.dll": {}
+        }
+      },
+      "Commant_Application.Conterxt/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "0_Frimwork": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Commant_Application.Conterxt.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Commant_Application.Conterxt.dll": {}
+        }
+      },
+      "Commant_Domin/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "0_Frimwork": "1.0.0",
+          "Commant_Application.Conterxt": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Commant_Domin.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Commant_Domin.dll": {}
+        }
+      },
+      "Commant_infarstucter_EFCore/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Commant_Domin": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "5.0.1",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.1"
+        },
+        "compile": {
+          "bin/placeholder/Commant_infarstucter_EFCore.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Commant_infarstucter_EFCore.dll": {}
+        }
+      },
       "DicuntM_Domin/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -8003,6 +8077,31 @@
       "path": "../blog-infarastucher-EFCore/blog-infarastucher-EFCore.csproj",
       "msbuildProject": "../blog-infarastucher-EFCore/blog-infarastucher-EFCore.csproj"
     },
+    "commant.Infarstucer.Confguration/1.0.0": {
+      "type": "project",
+      "path": "../commant.Infarstucer.Confguration/commant.Infarstucer.Confguration.csproj",
+      "msbuildProject": "../commant.Infarstucer.Confguration/commant.Infarstucer.Confguration.csproj"
+    },
+    "Commant_Application/1.0.0": {
+      "type": "project",
+      "path": "../Commant_Application/Commant_Application.csproj",
+      "msbuildProject": "../Commant_Application/Commant_Application.csproj"
+    },
+    "Commant_Application.Conterxt/1.0.0": {
+      "type": "project",
+      "path": "../Commant_Application.Conterxt/Commant_Application.Conterxt.csproj",
+      "msbuildProject": "../Commant_Application.Conterxt/Commant_Application.Conterxt.csproj"
+    },
+    "Commant_Domin/1.0.0": {
+      "type": "project",
+      "path": "../Commant_Domin/Commant_Domin.csproj",
+      "msbuildProject": "../Commant_Domin/Commant_Domin.csproj"
+    },
+    "Commant_infarstucter_EFCore/1.0.0": {
+      "type": "project",
+      "path": "../infarstucter_EFCore/Commant_infarstucter_EFCore.csproj",
+      "msbuildProject": "../infarstucter_EFCore/Commant_infarstucter_EFCore.csproj"
+    },
     "DicuntM_Domin/1.0.0": {
       "type": "project",
       "path": "../DicuntM_Domin/DicuntM_Domin.csproj",
@@ -8086,11 +8185,13 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "Commant_Application.Conterxt >= 1.0.0",
       "DisCunt.Configration >= 1.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 5.0.1",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 5.0.2",
       "Shop_ M_ConFigoriton >= 1.0.0",
       "blog-infarastucher-ConFiger >= 1.0.0",
+      "commant.Infarstucer.Confguration >= 1.0.0",
       "invantoryi.i.infarastucher.Confegoration >= 1.0.0"
     ]
   },
@@ -8123,6 +8224,12 @@
           "projectReferences": {
             "C:\\Git2\\SHOPing\\blog-infarastucher-ConFiger\\blog-infarastucher-ConFiger.csproj": {
               "projectPath": "C:\\Git2\\SHOPing\\blog-infarastucher-ConFiger\\blog-infarastucher-ConFiger.csproj"
+            },
+            "C:\\Git2\\SHOPing\\commant.Infarstucer.Confguration\\commant.Infarstucer.Confguration.csproj": {
+              "projectPath": "C:\\Git2\\SHOPing\\commant.Infarstucer.Confguration\\commant.Infarstucer.Confguration.csproj"
+            },
+            "C:\\Git2\\SHOPing\\Commant_Application.Conterxt\\Commant_Application.Conterxt.csproj": {
+              "projectPath": "C:\\Git2\\SHOPing\\Commant_Application.Conterxt\\Commant_Application.Conterxt.csproj"
             },
             "C:\\Git2\\SHOPing\\DisCunt.Configration\\DisCunt.Configration.csproj": {
               "projectPath": "C:\\Git2\\SHOPing\\DisCunt.Configration\\DisCunt.Configration.csproj"

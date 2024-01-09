@@ -14,13 +14,15 @@
 
   <ItemGroup>
     <ProjectReference Include="..\blog-infarastucher-ConFiger\blog-infarastucher-ConFiger.csproj" />
+    <ProjectReference Include="..\commant.Infarstucer.Confguration\commant.Infarstucer.Confguration.csproj" />
+    <ProjectReference Include="..\Commant_Application.Conterxt\Commant_Application.Conterxt.csproj" />
     <ProjectReference Include="..\DisCunt.Configration\DisCunt.Configration.csproj" />
     <ProjectReference Include="..\invantoryi.i.infarastucher.Confegoration\invantoryi.i.infarastucher.Confegoration.csproj" />
     <ProjectReference Include="..\Shop_ M_ConFigoriton\Shop_ M_ConFigoriton.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <Content Update="Areas\AddMin\Page\Shop\CommantS\Index.cshtml">
+    <Content Update="Areas\AddMin\Page\CommantS\Index.cshtml">
       <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
     </Content>

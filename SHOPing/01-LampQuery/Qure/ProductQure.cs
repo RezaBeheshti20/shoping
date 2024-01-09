@@ -6,7 +6,6 @@ using Discontinfarstuacher.Migrations;
 using M_invantori.Infarastucher.EFcor;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Storage.Internal;
-using SHop__m_Domin.CommentAgg;
 using SHop__m_Domin.ProductAgg;
 using SHop__m_Domin.ProductPicturAgg;
 using Shop__M_infrasutacher;
@@ -39,7 +38,7 @@ namespace _01_LampQuery.Qure
             var product = _shopContext.Products
                 .Include(x => x.Category)
                 .Include(x=>x.ProductPicturs)
-                .Include(x=>x.Commants)
+                
                 .Select(product => new ProductQureModel
             {
 
@@ -55,7 +54,6 @@ namespace _01_LampQuery.Qure
                 Keywords = product.Keywords,
                 MetaDescription = product.MetaDescription,
                 ShortDescription= product.ShortDescription,
-                Commants=MapCommants(product.Commants),
                 Pictures=MapProductPictures(product.ProductPicturs)
                  
 
@@ -91,20 +89,20 @@ namespace _01_LampQuery.Qure
             return product;
         }
 
-        private static List<CommantQureModel> MapCommants(List<Commant> commants)
-        {
-            return commants
-                .Where(x => !x.IsCancel)
-                .Where(x => x.IsConfirmad)
-                .Select(x => new CommantQureModel
-            {
-                Name=x.Name,
-                Massege=x.Mesasseg,
-                 Id=x.Id,
+        //private static List<CommantQureModel> MapCommants(List<Commant> commants)
+        //{
+        //    return commants
+        //        .Where(x => !x.IsCancel)
+        //        .Where(x => x.IsConfirmad)
+        //        .Select(x => new CommantQureModel
+        //    {
+        //        Name=x.Name,
+        //        Massege=x.Mesasseg,
+        //         Id=x.Id,
 
 
-            }).OrderByDescending(x=>x.Id).ToList();
-        }
+        //    }).OrderByDescending(x=>x.Id).ToList();
+        //}
 
         private static List<ProductPictureQureModel> MapProductPictures(List<ProductPictur> products)
         {

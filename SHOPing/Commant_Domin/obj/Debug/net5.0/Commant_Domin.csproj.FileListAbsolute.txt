@@ -1,0 +1,17 @@
+C:\Git2\SHOPing\Commant_Domin\bin\Debug\net5.0\Commant_Domin.deps.json
+C:\Git2\SHOPing\Commant_Domin\bin\Debug\net5.0\Commant_Domin.dll
+C:\Git2\SHOPing\Commant_Domin\bin\Debug\net5.0\Commant_Domin.pdb
+C:\Git2\SHOPing\Commant_Domin\bin\Debug\net5.0\0_Frimwork.dll
+C:\Git2\SHOPing\Commant_Domin\bin\Debug\net5.0\Commant_Application.Conterxt.dll
+C:\Git2\SHOPing\Commant_Domin\bin\Debug\net5.0\0_Frimwork.pdb
+C:\Git2\SHOPing\Commant_Domin\bin\Debug\net5.0\Commant_Application.Conterxt.pdb
+C:\Git2\SHOPing\Commant_Domin\obj\Debug\net5.0\Commant_Domin.csproj.AssemblyReference.cache
+C:\Git2\SHOPing\Commant_Domin\obj\Debug\net5.0\Commant_Domin.GeneratedMSBuildEditorConfig.editorconfig
+C:\Git2\SHOPing\Commant_Domin\obj\Debug\net5.0\Commant_Domin.AssemblyInfoInputs.cache
+C:\Git2\SHOPing\Commant_Domin\obj\Debug\net5.0\Commant_Domin.AssemblyInfo.cs
+C:\Git2\SHOPing\Commant_Domin\obj\Debug\net5.0\Commant_Domin.csproj.CoreCompileInputs.cache
+C:\Git2\SHOPing\Commant_Domin\obj\Debug\net5.0\Commant_Domin.csproj.CopyComplete
+C:\Git2\SHOPing\Commant_Domin\obj\Debug\net5.0\Commant_Domin.dll
+C:\Git2\SHOPing\Commant_Domin\obj\Debug\net5.0\refint\Commant_Domin.dll
+C:\Git2\SHOPing\Commant_Domin\obj\Debug\net5.0\Commant_Domin.pdb
+C:\Git2\SHOPing\Commant_Domin\obj\Debug\net5.0\ref\Commant_Domin.dll

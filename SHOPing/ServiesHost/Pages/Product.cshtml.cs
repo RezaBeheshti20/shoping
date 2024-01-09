@@ -1,8 +1,7 @@
 using _01_LampQuery.Conterctes.Product;
+using Commant_Application.Conterxt.Comment;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using Shop_M__Applicaion__Cotexet.Comment;
-
 namespace ServiesHost.Pages
 {
     public class ProductModel : PageModel
@@ -24,7 +23,7 @@ namespace ServiesHost.Pages
         public IActionResult OnPost(AddComment comment)
         {
             var Qure=_commentApplication.Add(comment);
-            return RedirectToPage("/Product",new { Id = comment.ProductId });
+            return RedirectToPage("/Product",new { Id = comment.ParntId });
         }
     }
 }

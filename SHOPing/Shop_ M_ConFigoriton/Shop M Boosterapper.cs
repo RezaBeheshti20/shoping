@@ -5,7 +5,6 @@ using _01_LampQuery.Qure;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.Extensions.DependencyInjection;
-using SHop__m_Domin.CommentAgg;
 using SHop__m_Domin.ProductAgg;
 using SHop__m_Domin.ProductCategoryAgg;
 using SHop__m_Domin.ProductPicturAgg;
@@ -13,7 +12,6 @@ using SHop__m_Domin.SlidAgg;
 using Shop__M_infrasutacher;
 using Shop__M_infrasutacher.Repository;
 using Shop__M_infrasutacher.RepositoryBase;
-using Shop_M__Applicaion__Cotexet.Comment;
 using Shop_M__Applicaion__Cotexet.Product;
 using Shop_M__Applicaion__Cotexet.ProductCategoryy;
 using Shop_M__Applicaion__Cotexet.ProductPictur;
@@ -43,8 +41,6 @@ namespace Shop__M_ConFigoriton
             service.AddTransient<ISlidRepostory,SlidRepostory>();
 
 
-            service.AddTransient<ICommentRepostoriy, CommantRepostoriy>();
-            service.AddTransient<ICommentApplication, CommantApplication>();
 
 
             service.AddTransient<ISlidQure,SlidQure>();

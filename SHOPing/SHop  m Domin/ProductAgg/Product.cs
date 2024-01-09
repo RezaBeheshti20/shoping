@@ -1,5 +1,4 @@
 ﻿using _0_Frimwork.Domin;
-using SHop__m_Domin.CommentAgg;
 using SHop__m_Domin.ProductCategoryAgg;
 using SHop__m_Domin.ProductPicturAgg;
 using System;
@@ -28,7 +27,6 @@ namespace SHop__m_Domin.ProductAgg
         public ProductCategory Category { get; private set; }
         public string Slug { get; private set; }
         public List<ProductPictur>ProductPicturs { get; private set; }
-         public List<Commant> Commants { get; private set; } 
         public Product(string name, string description, string picture, string pictureAlt
             , string picturTitle, string keywords, string metaDescription, string slug
             ,long categoreyId, double unitPrice,string code,string shortDescription)

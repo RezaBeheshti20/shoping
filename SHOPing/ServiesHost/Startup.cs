@@ -1,5 +1,6 @@
 using _0_Frimwork.Application;
 using blog_infarastucher_ConFiger;
+using commant.Infarstucer.Confguration;
 using DisCunt.Configration;
 using invantoryi.i.infarastucher.Confegoration;
 using Microsoft.AspNetCore.Builder;
@@ -12,6 +13,8 @@ using Shop__M_ConFigoriton;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text.Encodings.Web;
+using System.Text.Unicode;
 using System.Threading.Tasks;
 
 namespace ServiesHost
@@ -33,6 +36,9 @@ namespace ServiesHost
             DiscuntBootstarpper.Configure(services,Connenctionstring);
             invantoriBottstraper.Configure(services,Connenctionstring);
             BootAstraper.Configure(services,Connenctionstring);
+            Bootstarper.Cofigure(services,Connenctionstring);
+
+            services.AddSingleton(HtmlEncoder.Create(UnicodeRanges.BasicLatin, UnicodeRanges.Arabic));
 
             services.AddTransient<IFileUploader ,FileUploader>();
 

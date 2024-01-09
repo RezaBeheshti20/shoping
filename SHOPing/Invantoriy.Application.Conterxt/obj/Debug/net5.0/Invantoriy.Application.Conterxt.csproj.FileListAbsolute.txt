@@ -1,0 +1,17 @@
+C:\Git2\SHOPing\Invantoriy.Application.Conterxt\bin\Debug\net5.0\Invantoriy.Application.Conterxt.deps.json
+C:\Git2\SHOPing\Invantoriy.Application.Conterxt\bin\Debug\net5.0\Invantoriy.Application.Conterxt.dll
+C:\Git2\SHOPing\Invantoriy.Application.Conterxt\bin\Debug\net5.0\Invantoriy.Application.Conterxt.pdb
+C:\Git2\SHOPing\Invantoriy.Application.Conterxt\bin\Debug\net5.0\0_Frimwork.dll
+C:\Git2\SHOPing\Invantoriy.Application.Conterxt\bin\Debug\net5.0\Shop M  Applicaion _Cotexet.dll
+C:\Git2\SHOPing\Invantoriy.Application.Conterxt\bin\Debug\net5.0\0_Frimwork.pdb
+C:\Git2\SHOPing\Invantoriy.Application.Conterxt\bin\Debug\net5.0\Shop M  Applicaion _Cotexet.pdb
+C:\Git2\SHOPing\Invantoriy.Application.Conterxt\obj\Debug\net5.0\Invantoriy.Application.Conterxt.csproj.AssemblyReference.cache
+C:\Git2\SHOPing\Invantoriy.Application.Conterxt\obj\Debug\net5.0\Invantoriy.Application.Conterxt.GeneratedMSBuildEditorConfig.editorconfig
+C:\Git2\SHOPing\Invantoriy.Application.Conterxt\obj\Debug\net5.0\Invantoriy.Application.Conterxt.AssemblyInfoInputs.cache
+C:\Git2\SHOPing\Invantoriy.Application.Conterxt\obj\Debug\net5.0\Invantoriy.Application.Conterxt.AssemblyInfo.cs
+C:\Git2\SHOPing\Invantoriy.Application.Conterxt\obj\Debug\net5.0\Invantoriy.Application.Conterxt.csproj.CoreCompileInputs.cache
+C:\Git2\SHOPing\Invantoriy.Application.Conterxt\obj\Debug\net5.0\Invantoriy.Application.Conterxt.csproj.CopyComplete
+C:\Git2\SHOPing\Invantoriy.Application.Conterxt\obj\Debug\net5.0\Invantoriy.Application.Conterxt.dll
+C:\Git2\SHOPing\Invantoriy.Application.Conterxt\obj\Debug\net5.0\refint\Invantoriy.Application.Conterxt.dll
+C:\Git2\SHOPing\Invantoriy.Application.Conterxt\obj\Debug\net5.0\Invantoriy.Application.Conterxt.pdb
+C:\Git2\SHOPing\Invantoriy.Application.Conterxt\obj\Debug\net5.0\ref\Invantoriy.Application.Conterxt.dll

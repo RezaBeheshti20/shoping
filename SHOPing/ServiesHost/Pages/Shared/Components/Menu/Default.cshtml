@@ -20,10 +20,10 @@
                                 <li class="menu-item-has-children">
                                     <a>محصولات</a>
                                     <ul class="sub-menu">
-                                        @foreach (var category in Model.ProductCategories)
+                                        @foreach (var category in Model.productCategoryQures)
                                         {
                                             <li>
-                                                <a asp-page="./ProductCategory" asp-route-id="@category.Slug">@category.Name</a>
+                                                <a asp-page="./ProductCategory" asp-route-id="@category"></a>
                                             </li>
                                         }
                                     </ul>
@@ -31,7 +31,7 @@
                                 <li class="menu-item-has-children">
                                     <a>مقالات</a>
                                     <ul class="sub-menu">
-                                        @foreach (var category in Model.ArticleCategories)
+                                        @foreach (var category in Model.AArticalCategoriyQures)
                                         {
                                             <li>
                                                 <a asp-page="./ArticleCategory" asp-route-id="@category.Slug">@category.Name</a>
