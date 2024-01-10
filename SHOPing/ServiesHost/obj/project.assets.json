@@ -2419,6 +2419,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
+          "Commant_infarstucter_EFCore": "1.0.0",
           "Discontinfarstuacher": "1.0.0",
           "M_invantori.Infarastucher.EFcor": "1.0.0",
           "Shop _M_infrasutacherEFCore": "1.0.0",

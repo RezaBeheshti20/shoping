@@ -1,7 +1,10 @@
 using _01_LampQuery.Conterctes.Product;
 using Commant_Application.Conterxt.Comment;
+using Commant_infarstucter_EFCore;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using System.Data;
+
 namespace ServiesHost.Pages
 {
     public class ProductModel : PageModel
@@ -22,6 +25,7 @@ namespace ServiesHost.Pages
         }
         public IActionResult OnPost(AddComment comment)
         {
+            comment.Type = CommatType.Product;
             var Qure=_commentApplication.Add(comment);
             return RedirectToPage("/Product",new { Id = comment.ParntId });
         }

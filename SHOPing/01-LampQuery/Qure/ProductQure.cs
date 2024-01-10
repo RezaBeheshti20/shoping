@@ -1,6 +1,8 @@
 ﻿using _0_Frimwork.Application;
+using _01_LampQuery.Conterctes.Comment;
 using _01_LampQuery.Conterctes.Product;
 using _01_LampQuery.Conterctes.ProductCategoryQure;
+using Commant_infarstucter_EFCore;
 using Discontinfarstuacher;
 using Discontinfarstuacher.Migrations;
 using M_invantori.Infarastucher.EFcor;
@@ -23,9 +25,11 @@ namespace _01_LampQuery.Qure
         private readonly invantoriContext _invantoriContext;
         private readonly ShopContext _shopContext;
         private readonly DisCountContext _disCountContext;
+        private readonly CoomentContext _CommantContext;
 
-        public ProductQure(ShopContext shopContext, invantoriContext invantoriContext, DisCountContext disCountContext)
+        public ProductQure(ShopContext shopContext, invantoriContext invantoriContext, DisCountContext disCountContext,CoomentContext coomentContext)
         {
+            _CommantContext = coomentContext;
             _invantoriContext = invantoriContext;
             _shopContext = shopContext;
             _disCountContext = disCountContext;
@@ -82,6 +86,22 @@ namespace _01_LampQuery.Qure
                         product.PriceWithDisCount = (price - discuntAmout).ToString();
                     }
                 }
+                var commants=_CommantContext.Commants.Where(x=>x.Type== CommatType.Product)
+                .Where(x=>x.OwnerRecordId==product.Id)
+                .Where(x => !x.IsCancel)
+                .Where(x => x.IsConfirmad)
+                .Select(x => new CommantQureModel
+                {
+                    Name = x.Name,
+                    Massege = x.Mesasseg,
+                    Id = x.Id,
+                    ParantName=product.Name,
+                    PrantId=product.Id,
+                    CreationDate = x.CreationData.ToFarsi()
+
+
+                }).OrderByDescending(x => x.Id).ToList(); 
+            
 
 
 
@@ -89,20 +109,8 @@ namespace _01_LampQuery.Qure
             return product;
         }
 
-        //private static List<CommantQureModel> MapCommants(List<Commant> commants)
-        //{
-        //    return commants
-        //        .Where(x => !x.IsCancel)
-        //        .Where(x => x.IsConfirmad)
-        //        .Select(x => new CommantQureModel
-        //    {
-        //        Name=x.Name,
-        //        Massege=x.Mesasseg,
-        //         Id=x.Id,
-
-
-        //    }).OrderByDescending(x=>x.Id).ToList();
-        //}
+      
+        
 
         private static List<ProductPictureQureModel> MapProductPictures(List<ProductPictur> products)
         {

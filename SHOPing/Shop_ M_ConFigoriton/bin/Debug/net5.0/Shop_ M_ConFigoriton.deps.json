@@ -1133,6 +1133,7 @@
       },
       "01-LampQuery/1.0.0": {
         "dependencies": {
+          "Commant_infarstucter_EFCore": "1.0.0",
           "Discontinfarstuacher": "1.0.0",
           "M_invantori.Infarastucher.EFcor": "1.0.0",
           "Shop _M_infrasutacherEFCore": "1.0.0",
@@ -1169,6 +1170,33 @@
         },
         "runtime": {
           "blog-infarastucher-EFCore.dll": {}
+        }
+      },
+      "Commant_Application.Conterxt/1.0.0": {
+        "dependencies": {
+          "0_Frimwork": "1.0.0"
+        },
+        "runtime": {
+          "Commant_Application.Conterxt.dll": {}
+        }
+      },
+      "Commant_Domin/1.0.0": {
+        "dependencies": {
+          "0_Frimwork": "1.0.0",
+          "Commant_Application.Conterxt": "1.0.0"
+        },
+        "runtime": {
+          "Commant_Domin.dll": {}
+        }
+      },
+      "Commant_infarstucter_EFCore/1.0.0": {
+        "dependencies": {
+          "Commant_Domin": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "5.0.1",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.1"
+        },
+        "runtime": {
+          "Commant_infarstucter_EFCore.dll": {}
         }
       },
       "DicuntM_Domin/1.0.0": {
@@ -2033,6 +2061,21 @@
       "sha512": ""
     },
     "blog-infarastucher-EFCore/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Commant_Application.Conterxt/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Commant_Domin/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Commant_infarstucter_EFCore/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

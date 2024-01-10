@@ -85,19 +85,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Comment_M", "Comment_M", "{
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "M_Domin", "M_Domin", "{5B76F72C-2D13-4650-BE5C-BD78974133EA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Commant_Domin", "Commant_Domin\Commant_Domin.csproj", "{C2D7F5DE-DAE7-4533-8913-436B5A4A8D70}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Commant_Domin", "Commant_Domin\Commant_Domin.csproj", "{C2D7F5DE-DAE7-4533-8913-436B5A4A8D70}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "M_Application", "M_Application", "{3F8A611F-6B87-48ED-860E-69F9ACAAAFE6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Commant_Application.Conterxt", "Commant_Application.Conterxt\Commant_Application.Conterxt.csproj", "{7E0B577E-1C5B-4495-926C-8F641B73C1DC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Commant_Application.Conterxt", "Commant_Application.Conterxt\Commant_Application.Conterxt.csproj", "{7E0B577E-1C5B-4495-926C-8F641B73C1DC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Commant_Application", "Commant_Application\Commant_Application.csproj", "{B55E0226-E671-479E-9D6E-CF42B8792DF8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Commant_Application", "Commant_Application\Commant_Application.csproj", "{B55E0226-E671-479E-9D6E-CF42B8792DF8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "M-Infrastucter", "M-Infrastucter", "{575DF4DD-9F3F-4E04-B08A-5EA38413EE01}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Commant_infarstucter_EFCore", "infarstucter_EFCore\Commant_infarstucter_EFCore.csproj", "{5BB65719-E82D-413F-9424-AB4016DD11E3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Commant_infarstucter_EFCore", "infarstucter_EFCore\Commant_infarstucter_EFCore.csproj", "{5BB65719-E82D-413F-9424-AB4016DD11E3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "commant.Infarstucer.Confguration", "commant.Infarstucer.Confguration\commant.Infarstucer.Confguration.csproj", "{57458951-629F-4DA4-8920-2E0838574AE3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "commant.Infarstucer.Confguration", "commant.Infarstucer.Confguration\commant.Infarstucer.Confguration.csproj", "{57458951-629F-4DA4-8920-2E0838574AE3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,4 +1,6 @@
-﻿using System;
+﻿using _01_LampQuery.Conterctes.Comment;
+using Commant_Domin.CommentAgg;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,6 +10,7 @@ namespace _01_LampQuery.Conterctes.Artical
 {
     public class ArticalQuryModel
     {
+        public long Id { get; set; }
         public string Titel { get;  set; }
         public string ShortDescription { get;   set; }
         public string Description { get;  set; }
@@ -23,5 +26,6 @@ namespace _01_LampQuery.Conterctes.Artical
         public long CategoryId { get;  set; }
         public string CategoryName { get; set; }
         public string CategorytSlug { get; set; }
+        public List<CommantQureModel> Commants { get; set; }
     }
 }

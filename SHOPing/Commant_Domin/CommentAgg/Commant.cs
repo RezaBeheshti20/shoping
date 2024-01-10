@@ -19,7 +19,6 @@ namespace Commant_Domin.CommentAgg
         public int Type { get;private set; }
         public long ParntId { get;private set; }
         public Commant Parnt { get;private set; }
-        public List<Commant> Childran { get;private set; }
      
         public Commant(string name, string email, string webSoit, string mesasseg, long ownerRecordId, int type, long parntId)
         {
